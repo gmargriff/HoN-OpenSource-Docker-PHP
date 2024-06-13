@@ -1,0 +1,5106 @@
+[
+    {
+        "skin": "aa.Hero_Chi.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Goldenveil.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Berzerker.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chronos.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt14",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Warchief.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hydromancer.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hydromancer.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Panda.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadwood.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadwood.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pestilence.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pestilence.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Cthulhuphant.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Cthulhuphant.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt14",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt14",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Grinex.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bombardier.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Adrenaline.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tempest.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Defiler.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Apex.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Apex.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pestilence.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_EmeraldWarden.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Armadon.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SandWraith.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vanya.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Krixi.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vindicator.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Defiler.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prophet.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hellbringer.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SirBenzington.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vindicator.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Berzerker.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pearl.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ellonia.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gunblade.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ichor.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rally.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Jereziah.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Zephyr.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Andromeda.soccer_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Geomancer.soccer_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pestilence.soccer_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Lodestone.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tundra.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kunas.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hydromancer.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shaman.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Taint.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_CorruptedDisciple.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Blitz.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DrunkenMaster.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Voodoo.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Engineer.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Calamity.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Silhouette.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Andromeda.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Arachna.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mumra.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kane.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artesia.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_KingKlout.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Andromeda.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Jereziah.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ra.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ellonia.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kunas.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MasterOfArms.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_EmeraldWarden.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MasterOfArms.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riptide.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parallax.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Circe.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadlift.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_BabaYaga.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_BabaYaga.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tarot.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kenisis.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ravenor.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_EmeraldWarden.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ra.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chipper.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Electrician.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Silhouette.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Silhouette.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gladiator.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Silhouette.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gunblade.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MasterOfArms.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Engineer.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Accursed.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Javaras.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Monarch.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gladiator.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gauntlet.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Flux.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vindicator.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SirBenzington.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Berzerker.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Taint.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tarot.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chronos.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ShadowBlade.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Zephyr.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shaman.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artesia.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Panda.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Armadon.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MasterOfArms.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riptide.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DrunkenMaster.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fairy.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Defiler.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Moira.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rhapsody.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Circe.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Javaras.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Klanx.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Klanx.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bephelgor.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Midas.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Armadon.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parasite.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ra.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Berzerker.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MasterOfArms.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_HellDemon.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Circe.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vindicator.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rally.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pyromancer.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Grinex.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlameDragon.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Lodestone.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Andromeda.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pearl.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadwood.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DwarfMagi.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gunblade.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Taint.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ravenor.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SandWraith.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Panda.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Javaras.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Yogi.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlameDragon.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riftmage.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gunblade.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Jereziah.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prophet.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Berzerker.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SirBenzington.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DrunkenMaster.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Arachna.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DwarfMagi.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Xalynx.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Armadon.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Grinex.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Solstice.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pearl.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Flux.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Arachna.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Andromeda.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ravenor.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Plant.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bephelgor.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Electrician.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Succubis.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Maliken.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ShadowBlade.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Zephyr.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Geomancer.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Maliken.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadwood.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Treant.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tremble.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ellonia.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlameDragon.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_CorruptedDisciple.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kunas.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Plant.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riptide.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rhapsody.AltHD",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Empath.AltHD",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bombardier.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mumra.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt16",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Aluna.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tarot.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Javaras.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Adrenaline.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt15",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Goldenveil.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dreadknight.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pearl.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Sapphire.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chronos.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fairy.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Maliken.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt15",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt14",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MasterOfArms.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Aluna.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kraken.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Solstice.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pyromancer.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kane.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SandWraith.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ellonia.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mimix.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mimix.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt14",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ebulus.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Soulstealer.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PollywogPriest.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DoctorRepulsor.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Circe.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riptide.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Engineer.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Salomon.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Accursed.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scar.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dampeer.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rally.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DiseasedRider.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt15",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prophet.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Andromeda.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tarot.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vanya.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Sapphire.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parallax.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Voodoo.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chi.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mumra.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mumra.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SirBenzington.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SirBenzington.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dreadknight.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dreadknight.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Goldenveil.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Goldenveil.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt16",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bushwack.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt14",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt15",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt16",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Silhouette.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vindicator.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt14",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Frosty.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DwarfMagi.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ravenor.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gladiator.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt14",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prophet.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pyromancer.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kenisis.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tempest.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hydromancer.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt15",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Jereziah.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chronos.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MasterOfArms.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ShadowBlade.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Goldenveil.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Lodestone.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SandWraith.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Blitz.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bombardier.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Adrenaline.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Solstice.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dampeer.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ophelia.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Empath.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dreadknight.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.trophy_skin03",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.trophy_skin02",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Cthulhuphant.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PollywogPriest.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Silhouette.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DrunkenMaster.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt15",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Armadon.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt14",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kunas.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_CorruptedDisciple.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Sapphire.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Sapphire.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Salomon.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_BabaYaga.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Krixi.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Flux.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SirBenzington.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Arachna.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tarot.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nitro.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Geomancer.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vanya.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Javaras.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shaman.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Klanx.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rhapsody.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DwarfMagi.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pyromancer.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ravenor.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MasterOfArms.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlameDragon.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dampeer.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Warchief.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kane.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Frosty.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Succubis.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Soulstealer.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Calamity.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gladiator.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Panda.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parasite.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Aluna.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt15",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gunblade.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Maliken.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Monarch.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Revenant.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shellshock.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shellshock.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Grinex.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Adrenaline.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ebulus.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadwood.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Empath.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fairy.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bombardier.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Treant.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ra.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parallax.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlameDragon.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pearl.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bushwack.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Solstice.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Klanx.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MasterOfArms.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artesia.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DoctorRepulsor.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Armadon.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_CorruptedDisciple.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SirBenzington.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Yogi.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Midas.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hydromancer.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Soulstealer.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Zephyr.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dampeer.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shaman.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chronos.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Jereziah.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Adrenaline.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Adrenaline.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Salomon.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Accursed.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Xalynx.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ShadowBlade.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SirBenzington.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Berzerker.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mumra.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Frosty.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gemini.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ra.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riptide.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dreadknight.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prisoner.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kenisis.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Flux.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gauntlet.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kunas.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Calamity.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt13",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vanya.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bushwack.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ichor.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riftmage.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Cthulhuphant.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pyromancer.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_KingKlout.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Electrician.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kane.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Javaras.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ellonia.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadlift.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.set_ascension",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Salomon.set_ascension",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vanya.set_ascension",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.set_ascension",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DoctorRepulsor.set_ascent",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Soulstealer.set_ascension",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Defiler.set_ascension",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Solstice.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.set_ascension",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parasite.set_ascension",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bephelgor.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ebulus.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parallax.set_ascension",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mumra.set_ascension",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Armadon.set_ascension",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shellshock.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shellshock.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ravenor.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bombardier.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tarot.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Midas.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DwarfMagi.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Aluna.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt12",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Moira.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tarot.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlameDragon.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tarot.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DoctorRepulsor.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Succubis.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Empath.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Krixi.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rhapsody.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Xalynx.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Panda.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kenisis.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_CorruptedDisciple.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlameDragon.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gauntlet.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hellbringer.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ebulus.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_BabaYaga.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ophelia.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Berzerker.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Yogi.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pestilence.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Blitz.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pearl.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gladiator.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gemini.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_KingKlout.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Skrap.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kane.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bushwack.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nitro.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ra.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rhapsody.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riptide.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kane.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gauntlet.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shaman.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Voodoo.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Taint.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Maliken.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bombardier.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bombardier.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Yogi.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Treant.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Xalynx.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gauntlet.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Revenant.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parasite.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tarot.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Frosty.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rally.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Calamity.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt11",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DiseasedRider.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ra.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hellbringer.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prophet.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bushwack.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nitro.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nitro.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Maliken.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pestilence.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gladiator.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prisoner.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vindicator.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Succubis.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rhapsody.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riftmage.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PollywogPriest.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pyromancer.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dampeer.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scar.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_HellDemon.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pyromancer.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gauntlet.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Berzerker.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parasite.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Engineer.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Arachna.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Accursed.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WolfMan.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SandWraith.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kane.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tarot.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Empath.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scar.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Solstice.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rhapsody.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Javaras.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Midas.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Calamity.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Silhouette.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Skrap.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Skrap.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gladiator.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kunas.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Calamity.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Solstice.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadwood.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DoctorRepulsor.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pestilence.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vanya.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rhapsody.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Taint.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ShadowBlade.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tempest.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Soulstealer.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Engineer.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gunblade.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parallax.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Krixi.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kunas.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DrunkenMaster.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Treant.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Klanx.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadlift.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Maliken.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Voodoo.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Xalynx.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kraken.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rally.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Empath.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dreadknight.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Panda.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Jereziah.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.trophy_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_BabaYaga.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Yogi.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt10",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DiseasedRider.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ophelia.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Defiler.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ShadowBlade.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Frosty.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Martyr.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Calamity.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Calamity.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Plant.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dampeer.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Solstice.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mumra.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Succubis.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kane.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scar.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Lodestone.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rhapsody.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riftmage.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Accursed.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kane.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_BabaYaga.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SandWraith.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Panda.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kane.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kane.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bombardier.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadwood.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Oogie.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tempest.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SirBenzington.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DoctorRepulsor.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Frosty.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pearl.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Oogie.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Silhouette.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ebulus.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kraken.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Krixi.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fairy.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Armadon.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MasterOfArms.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ophelia.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_EmeraldWarden.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Martyr.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vindicator.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Grinex.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parasite.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Plant.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Moraxus.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prophet.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Klanx.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DiseasedRider.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Salomon.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlameDragon.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Plant.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pearl.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WolfMan.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mumra.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Monarch.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prisoner.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Geomancer.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Zephyr.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Martyr.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tarot.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tarot.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tempest.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Soulstealer.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WolfMan.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DiseasedRider.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vindicator.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_CorruptedDisciple.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Electrician.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hellbringer.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Krixi.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Monarch.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Jereziah.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Cthulhuphant.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fairy.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Empath.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tremble.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chipper.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PollywogPriest.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Treant.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Klanx.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Frosty.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SandWraith.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riptide.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riptide.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Succubis.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ra.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt8",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shaman.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Voodoo.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SirBenzington.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hellbringer.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ellonia.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Midas.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Moira.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tundra.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Taint.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Zephyr.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gladiator.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DrunkenMaster.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gunblade.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kunas.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DiseasedRider.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlameDragon.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Electrician.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chipper.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DwarfMagi.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bephelgor.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Armadon.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Arachna.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Electrician.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Andromeda.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Accursed.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DoctorRepulsor.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_CorruptedDisciple.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DrunkenMaster.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Geomancer.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SirBenzington.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tempest.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Flux.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Solstice.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Aluna.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DiseasedRider.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bombardier.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shaman.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Engineer.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Maliken.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prisoner.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Xalynx.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chronos.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Succubis.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kenisis.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_CorruptedDisciple.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Jereziah.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Silhouette.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prophet.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Panda.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Plant.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ebulus.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Circe.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artesia.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Accursed.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt9",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scar.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gauntlet.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Defiler.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gemini.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_BabaYaga.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Krixi.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Voodoo.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dampeer.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ellonia.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vanya.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Soulstealer.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ravenor.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DoctorRepulsor.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Treant.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ophelia.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Blitz.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dreadknight.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chronos.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pestilence.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Salomon.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Aluna.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Empath.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_BabaYaga.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hydromancer.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Aluna.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Moraxus.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Geomancer.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pyromancer.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prisoner.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Martyr.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_HellDemon.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.pog_skin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Maliken.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Revenant.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_EmeraldWarden.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ebulus.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rally.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bushwack.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gladiator.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Xalynx.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vanya.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tempest.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Succubis.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Soulstealer.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ebulus.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mumra.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ophelia.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Martyr.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Javaras.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scar.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Treant.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Frosty.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Defiler.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadwood.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Andromeda.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SirBenzington.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hellbringer.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt7",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Zephyr.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gauntlet.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prisoner.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prisoner.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gemini.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PollywogPriest.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tempest.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt6",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fairy.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Monarch.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Arachna.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kunas.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kraken.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Martyr.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Engineer.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DiseasedRider.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WolfMan.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Yogi.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SandWraith.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Accursed.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Krixi.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Classic",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadwood.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Plant.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hydromancer.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dampeer.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Moraxus.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Defiler.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Zephyr.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Berzerker.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Grinex.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Solstice.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Salomon.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Salomon.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Oogie.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ShadowBlade.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ravenor.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tundra.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kunas.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Revenant.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Accursed.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WolfMan.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SandWraith.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tremble.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Blitz.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pearl.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Silhouette.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bushwack.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bushwack.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chronos.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rally.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bombardier.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parasite.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Yogi.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_HellDemon.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_EmeraldWarden.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rhapsody.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vanya.Alt_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Treant.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Krixi.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Frosty.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DrunkenMaster.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt5",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ellonia.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shaman.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Lodestone.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Lodestone.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DrunkenMaster.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Maliken.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Panda.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mumra.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chipper.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tremble.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Cthulhuphant.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vanya.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Grinex.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pestilence.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.Alt_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_EmeraldWarden.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PollywogPriest.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Jereziah.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Zephyr.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DoctorRepulsor.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Geomancer.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pearl.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pyromancer.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ra.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_CorruptedDisciple.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Taint.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Frosty.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Xalynx.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MasterOfArms.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlameDragon.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Succubis.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scar.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gauntlet.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hellbringer.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Solstice.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Solstice.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gunblade.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fairy.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Soulstealer.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Panda.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Empath.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gladiator.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Oogie.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Oogie.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Jereziah.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bephelgor.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pyromancer.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadwood.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Armadon.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parasite.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Krixi.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prophet.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Prophet.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ravenor.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tundra.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kraken.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gemini.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_BabaYaga.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PuppetMaster.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Javaras.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt4",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dreadknight.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rally.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rally.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Berzerker.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ebulus.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Voodoo.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tempest.main_reskin",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Silhouette.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ophelia.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Engineer.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlameDragon.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ophelia.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bombardier.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vindicator.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kenisis.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rocky.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Riftmage.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ellonia.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artillery.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_ForsakenArcher.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Aluna.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Moraxus.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Midas.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Geomancer.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Blitz.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gauntlet.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt3",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Cthulhuphant.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gunblade.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MonkeyKing.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Electrician.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kenisis.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Monarch.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlameDragon.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pestilence.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dreadknight.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WolfMan.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_SandWraith.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Berzerker.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hydromancer.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mumra.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DwarfMagi.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dampeer.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "c.panda_courier",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fade.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PollywogPriest.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Voodoo.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_EmeraldWarden.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Taint.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vanya.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ra.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Yogi.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Artesia.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hunter.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Midas.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Xalynx.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Treant.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chronos.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Panda.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Martyr.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Valkyrie.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DoctorRepulsor.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chronos.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_CorruptedDisciple.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dreadknight.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Fairy.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Revenant.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Deadwood.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Shaman.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Andromeda.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Mumra.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rhapsody.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gemini.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gladiator.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Monarch.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Behemoth.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Javaras.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Chipper.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Cthulhuphant.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Legionnaire.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Midas.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Jereziah.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scout.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Accursed.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DiseasedRider.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_MasterOfArms.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DrunkenMaster.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Zephyr.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Defiler.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_EmeraldWarden.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Parasite.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_DwarfMagi.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ra.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hydromancer.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kunas.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Armadon.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Vindicator.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Flux.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Predator.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Silhouette.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_BabaYaga.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pestilence.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Nomad.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tremble.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tundra.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Ebulus.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Engineer.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt2",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Rampage.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Tempest.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hellbringer.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Empath.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hiro.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_HellDemon.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Kraken.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hammerstorm.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Arachna.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Dampeer.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_FlintBeastwood.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Hantumon.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gladiator.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bubbles.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Gauntlet.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_WitchSlayer.Pimp",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Succubis.Naughty",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Devourer.Clown",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Scar.Scary",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Bombardier.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Soulstealer.Alt",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Frosty.Female",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Magmar.Scorpion",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_PollywogPriest.Chieftain",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Krixi.Sexy",
+        "enable": 1
+    },
+    {
+        "skin": "aa.Hero_Pyromancer.Female",
+        "enable": 1
+    }
+]

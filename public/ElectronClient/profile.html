@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoN OpenSource</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="drag">
+            <button class="close_button" onclick="window.close()">x</button>
+        </div>
+        <div class="internal">
+            <div class="background"></div>
+            <div class="content">
+                <div id="welcome"></div>
+                <button class="play_button" type="button" onclick="loadGame(this)">
+                    <img src="./public_docs/play_button.png" alt="Play" />
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="cursors">
+        <img src="./images/cursor.png" alt="pointer" id="pointer" />
+        <img src="./images/click.png" alt="clicker" id="clicker" />
+    </div>
+</body>
+<script src="./scripts/axios.min.js"></script>
+<script src="./scripts/cursor.js"></script>
+<script>
+    const apiUrl = "http://192.168.100.6:8080/";
+
+    function loadData() {
+        let user = sessionStorage.getItem("user");
+        user = JSON.parse(user);
+        const username = user.username[0].toUpperCase() + user.username.slice(1);
+        document.getElementById("welcome").innerHTML = `Logged in as <b>${username}</b>`;
+    }
+
+    loadData();
+
+    function loadGame(btn) {
+        btn.style.display = "none";
+        window.indexBridge.openHonClient();
+    }
+    
+</script>
+
+</html>

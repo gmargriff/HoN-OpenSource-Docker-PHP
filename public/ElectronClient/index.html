@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoN OpenSource</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="drag">
+            <button class="close_button" onclick="window.close()">x</button>
+        </div>
+        <video autoplay muted loop id="background">
+            <source src="./public_docs/login_1080.webm" type="video/webm">
+        </video>
+        <div class="form">
+            <img src="./public_docs/logo.png" alt="Heroes of Newerth" class="logo" />
+            <form method="POST">
+                <div class="input-control">
+                    <img src="./public_docs/border.png" alt="border" />
+                    <input type="text" name="username" placeholder="Username" required oninput="to_lowercase(this)" />
+                    <img src="./public_docs/border.png" alt="border" />
+                </div>
+                <div class="input-control">
+                    <img src="./public_docs/border.png" alt="border" />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <img src="./public_docs/border.png" alt="border" />
+                </div>
+                <div class="error">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="buttons">
+                    <button type="button" class="register" onclick="window.indexBridge.openHoNRegister()">Create account</button>
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+        <div class="cursors">
+            <img src="./images/cursor.png" alt="pointer" id="pointer" />
+            <img src="./images/click.png" alt="clicker" id="clicker" />
+        </div>
+</body>
+<script src="./scripts/axios.min.js"></script>
+<script src="./scripts/cursor.js"></script>
+<script>
+    const apiUrl = "http://192.168.100.6:8080/";
+
+    function to_lowercase(e) {
+        e.value = e.value.toLowerCase();
+    }
+
+    document.querySelector("form").addEventListener("submit", event => {
+        event.preventDefault();
+        let form = new FormData(event.target);
+        axios.post(apiUrl + "login.php", form).then(response => {
+            let res = response.data;
+            if (!res.id) {
+                let errors = "";
+                res.map(err => {
+                    errors = errors + `<li>${err}</li>`;
+                    return true;
+                });
+                document.querySelector(".error ul").innerHTML = errors;
+                document.querySelector(".error").classList.add("show");
+                setTimeout(() => {
+                    document.querySelector(".error").classList.remove("show");
+                }, 10000);
+            } else {
+                sessionStorage.setItem("user", JSON.stringify(res));
+                window.location.href = "./profile.html";
+            }
+        });
+    });
+</script>
+
+</html>

@@ -1,0 +1,72 @@
+version: "3.5"
+
+services:
+  web:
+    image: nginx:1.15.2
+    ports:
+      - $WEB_PORTS
+    volumes:
+      - "./public:/usr/share/nginx/html/public"
+      - "./.docker/web/default.conf:/etc/nginx/conf.d/default.conf"
+      - "./.docker/log:/var/log/nginx"
+    env_file:
+      - ".env"
+    depends_on:
+      - "php"
+    links:
+      - "php"
+    restart: $RESTART
+  php:
+    build: "./.docker/php-fpm"
+    expose:
+      - "9000"
+    volumes:
+      - "./public:/usr/share/nginx/html/public"
+      - "./public:/var/www/html/public"
+      - "./.env:/usr/share/nginx/html/public/.env"
+      - "./.env:/var/www/html/public/.env"
+      - "./.docker/php-fpm/php-${PHP_ENV}.ini:/usr/local/etc/php/conf.d/php-docker.ini"
+      - "./.docker/php-fpm/.bashrc:/var/www/.bashrc"
+      - "./.docker/php-fpm/.bashrc:/root/.bashrc"
+      - ~/.composer:/var/www/.composer
+      - ~/.composer:/root/.composer
+    environment:
+      PHP_IDE_CONFIG: "serverName=laravel"
+      UPLOAD_LIMIT: 128M
+    depends_on:
+      - "db"
+    links:
+      - "db"
+    restart: $RESTART
+  db:
+    image: mariadb:10.1
+    ports:
+      - $DB_PORT:$DB_PORT
+    expose:
+      - $DB_PORT
+    volumes:
+      - ".database:/.database"
+      - ".data:/var/lib/mysql"
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    env_file:
+      - ".env"
+    restart: $RESTART
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - $PHPMYADMIN_PORTS
+    environment:
+      - PMA_ARBITRARY=0
+      - PMA_HOST=db
+      - UPLOAD_LIMIT=300M
+    volumes:
+      - ".phpmyadmin:/sessions"
+      - "./.docker/phpmyadmin/php-phpmyadmin.ini://usr/local/etc/php/conf.d/php-phpmyadmin.ini"
+    links:
+      - db
+    restart: $RESTART
+volumes:
+  data: {}

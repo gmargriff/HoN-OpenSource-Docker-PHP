@@ -1,0 +1,224 @@
+{
+    "proof": "",
+    "sec_info": {
+        "initial_vector": "73088db5e71cfb6d",
+        "hash_code": "73088db5e71cfb6d43ae0bb4abf095dd43862200",
+        "key_version": "3e2d"
+    },
+    "super_id": "8746589",
+    "account_id": "8941120",
+    "garena_id": "",
+    "nickname": "",
+    "email": "test@test.com",
+    "account_type": "3",
+    "trial": "0",
+    "susp_id": "0",
+    "prepay_only": "",
+    "standing": "1",
+    "use_cloud": "",
+    "pass_exp": "",
+    "is_new": "0",
+    "cookie": "e371017339a3df2d0cecd31ce185144a",
+    "ip": "108.193.2.113",
+    "minimum_ranked_level": "3",
+    "leaverthreshold": ".05",
+    "is_under_24": "",
+    "is_subaccount": "",
+    "is_current_subaccount": "",
+    "icb_url": "http:\/\/s3.amazonaws.com\/naeu-icb2",
+    "auth_hash": "ab5bfc2c9b474413db4506e8f02aea5928f6c572",
+    "host_time": "1649825550",
+    "chat_url": "127.0.0.1",
+    "chat_port": "8080",
+    "cafe_id": "",
+    "gca_regular": "",
+    "gca_prime": "",
+    "commenting_url": "127.0.0.1",
+    "commenting_port": "8080",
+    "hero_list": {
+        "free": "Hero_Genesis,Hero_Dorin_Tal,Hero_Adeve"
+    },
+    "buddy_list": {
+        "8941120": []
+    },
+    "ignored_list": {
+        "8941120": []
+    },
+    "banned_list": {
+        "8941120": []
+    },
+    "infos": [
+        {
+            "account_id": "8941120",
+            "standing": "1",
+            "level": "1",
+            "level_exp": "0",
+            "discos": "0",
+            "possible_discos": "0",
+            "games_played": "0",
+            "num_bot_games_won": "",
+            "acc_pub_skill": "1500.000",
+            "acc_wins": "0",
+            "acc_losses": "0",
+            "acc_games_played": "0",
+            "acc_discos": "0",
+            "rnk_amm_team_rating": "1500.000",
+            "rnk_wins": "0",
+            "rnk_losses": "0",
+            "rnk_games_played": "0",
+            "rnk_discos": "0",
+            "cs_amm_team_rating": "1500.000",
+            "cs_wins": "0",
+            "cs_losses": "0",
+            "cs_games_played": "0",
+            "cs_discos": "0",
+            "mid_games_played": "0",
+            "mid_discos": "0",
+            "rift_games_played": "0",
+            "rift_discos": "0",
+            "is_new": "0",
+            "cam_games_played": "0",
+            "cam_discos": "0",
+            "cam_cs_games_played": "0",
+            "cam_cs_discos": "0"
+        }
+    ],
+    "clan_member_info": {
+        "error": "No clan members found."
+    },
+    "chatrooms": [
+        ""
+    ],
+    "notifications": [
+        {
+            "notification": "stratkING||2|notify_buddy_added|notification_generic_info||02\/04 00:27 AM|1140756",
+            "notify_id": "1140756"
+        }
+    ],
+    "clan_roster": {
+        "error": "No clan members found."
+    },
+    "identities": [
+        [
+            "ExampleNickname",
+            "8941120"
+        ]
+    ],
+    "points": "0",
+    "mmpoints": "2950",
+    "dice_tokens": "0",
+    "season_level": "0",
+    "my_upgrades": [
+        "m.allmodes.pass",
+        "h.AllHeroes.Hero",
+        "cc.white",
+        "ai.Default Icon"
+    ],
+    "selected_upgrades": [
+        "cc.white",
+        "ai.Default Icon"
+    ],
+    "game_tokens": "0",
+    "my_upgrades_info": {
+        "cc.white": {
+            "data": ""
+        }
+    },
+    "creep_level": "0",
+    "timestamp": "1649825550",
+    "awards_tooltip": {
+        "milestones": {
+            "heroassists": {
+                "aname": "heroassists",
+                "exp": "100",
+                "gc": "5",
+                "modulo": "250"
+            },
+            "herokills": {
+                "aname": "herokills",
+                "exp": "100",
+                "gc": "5",
+                "modulo": "250"
+            },
+            "smackdown": {
+                "aname": "smackdown",
+                "exp": "50",
+                "gc": "1",
+                "modulo": "10"
+            },
+            "wards": {
+                "aname": "wards",
+                "exp": "100",
+                "gc": "5",
+                "modulo": "50"
+            },
+            "wins": {
+                "aname": "wins",
+                "exp": "200",
+                "gc": "10",
+                "modulo": "50"
+            }
+        },
+        "leveling": {
+            "2-5": "6",
+            "6-10": "12",
+            "11-15": "18"
+        },
+        "bloodlust": {
+            "exp": "10",
+            "gc": "2"
+        },
+        "annihilation": {
+            "exp": "75",
+            "gc": "15",
+            "tm_exp": "25",
+            "tm_gc": "5"
+        },
+        "immortal": {
+            "exp": "50",
+            "gc": "10",
+            "tm_exp": "15",
+            "tm_gc": "3"
+        },
+        "victory": {
+            "exp": "30",
+            "gc": "6"
+        },
+        "loss": {
+            "exp": "10",
+            "gc": "2"
+        },
+        "disco": {
+            "exp": "0",
+            "gc": "0"
+        },
+        "quick": {
+            "exp": "0",
+            "gc": "2"
+        },
+        "first": {
+            "exp": "20",
+            "gc": "4"
+        },
+        "consec_win": {
+            "exp": "0",
+            "gc": "2-6"
+        },
+        "consec_loss": {
+            "exp": "0",
+            "gc": "1"
+        }
+    },
+    "quest_system": {
+        "error": {
+            "quest_status": "0",
+            "leaderboard_status": "0"
+        }
+    },
+    "campaign_current_season": "12",
+    "mmr_rank": "1250,1275,1300,1330,1365,1400,1435,1470,1505,1540,1575,1610,1645,1685,1725,1765,1805,1850,1900,1950",
+    "account_cloud_storage_info": "",
+    "mute_expiration": "0",
+    "vested_threshold": "5",
+    "0": "1"
+}

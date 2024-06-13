@@ -1,0 +1,889 @@
+{
+    "account_id": "8941120",
+    "nickname": "",
+    "name": "",
+    "rank": "Leader",
+    "standing": "3",
+    "create_date": "06\/10\/2024",
+    "last_activity": "06\/10\/2024",
+    "selected_upgrades": [
+        "cc.white",
+        "ai.Default Icon"
+    ],
+    "level": "258",
+    "level_exp": "3503475",
+    "mastery_info": [
+        {
+            "heroname": "Hero_Armadon",
+            "exp": "16951"
+        },
+        {
+            "heroname": "Hero_Behemoth",
+            "exp": "22769"
+        },
+        {
+            "heroname": "Hero_Chronos",
+            "exp": "16850"
+        },
+        {
+            "heroname": "Hero_Defiler",
+            "exp": "25132"
+        },
+        {
+            "heroname": "Hero_Devourer",
+            "exp": "28163"
+        },
+        {
+            "heroname": "Hero_DwarfMagi",
+            "exp": "7317"
+        },
+        {
+            "heroname": "Hero_Ebulus",
+            "exp": "36100"
+        },
+        {
+            "heroname": "Hero_Electrician",
+            "exp": "4705"
+        },
+        {
+            "heroname": "Hero_Fairy",
+            "exp": "22098"
+        },
+        {
+            "heroname": "Hero_Frosty",
+            "exp": "5298"
+        },
+        {
+            "heroname": "Hero_Hammerstorm",
+            "exp": "6662"
+        },
+        {
+            "heroname": "Hero_Hantumon",
+            "exp": "2512"
+        },
+        {
+            "heroname": "Hero_Hiro",
+            "exp": "1939"
+        },
+        {
+            "heroname": "Hero_Hunter",
+            "exp": "3454"
+        },
+        {
+            "heroname": "Hero_Kraken",
+            "exp": "3071"
+        },
+        {
+            "heroname": "Hero_Kunas",
+            "exp": "36100"
+        },
+        {
+            "heroname": "Hero_Krixi",
+            "exp": "6841"
+        },
+        {
+            "heroname": "Hero_PollywogPriest",
+            "exp": "3165"
+        },
+        {
+            "heroname": "Hero_Rocky",
+            "exp": "5799"
+        },
+        {
+            "heroname": "Hero_Soulstealer",
+            "exp": "3909"
+        },
+        {
+            "heroname": "Hero_Treant",
+            "exp": "5132"
+        },
+        {
+            "heroname": "Hero_Vanya",
+            "exp": "1067"
+        },
+        {
+            "heroname": "Hero_Voodoo",
+            "exp": "16224"
+        },
+        {
+            "heroname": "Hero_WolfMan",
+            "exp": "3850"
+        },
+        {
+            "heroname": "Hero_Yogi",
+            "exp": "15469"
+        },
+        {
+            "heroname": "Hero_Zephyr",
+            "exp": "1088"
+        },
+        {
+            "heroname": "Hero_Mumra",
+            "exp": "36100"
+        },
+        {
+            "heroname": "Hero_Tempest",
+            "exp": "10878"
+        },
+        {
+            "heroname": "Hero_Ophelia",
+            "exp": "5437"
+        },
+        {
+            "heroname": "Hero_Javaras",
+            "exp": "5306"
+        },
+        {
+            "heroname": "Hero_Legionnaire",
+            "exp": "4398"
+        },
+        {
+            "heroname": "Hero_Predator",
+            "exp": "12736"
+        },
+        {
+            "heroname": "Hero_Accursed",
+            "exp": "8636"
+        },
+        {
+            "heroname": "Hero_Nomad",
+            "exp": "2214"
+        },
+        {
+            "heroname": "Hero_Scar",
+            "exp": "4725"
+        },
+        {
+            "heroname": "Hero_Shaman",
+            "exp": "36100"
+        },
+        {
+            "heroname": "Hero_Scout",
+            "exp": "1156"
+        },
+        {
+            "heroname": "Hero_Jereziah",
+            "exp": "4726"
+        },
+        {
+            "heroname": "Hero_Xalynx",
+            "exp": "4591"
+        },
+        {
+            "heroname": "Hero_PuppetMaster",
+            "exp": "2666"
+        },
+        {
+            "heroname": "Hero_Arachna",
+            "exp": "8162"
+        },
+        {
+            "heroname": "Hero_Hellbringer",
+            "exp": "36100"
+        },
+        {
+            "heroname": "Hero_Pyromancer",
+            "exp": "1856"
+        },
+        {
+            "heroname": "Hero_Pestilence",
+            "exp": "7040"
+        },
+        {
+            "heroname": "Hero_Maliken",
+            "exp": "22040"
+        },
+        {
+            "heroname": "Hero_Andromeda",
+            "exp": "2805"
+        },
+        {
+            "heroname": "Hero_Valkyrie",
+            "exp": "5619"
+        },
+        {
+            "heroname": "Hero_BabaYaga",
+            "exp": "2616"
+        },
+        {
+            "heroname": "Hero_Succubis",
+            "exp": "5252"
+        },
+        {
+            "heroname": "Hero_Magmar",
+            "exp": "3260"
+        },
+        {
+            "heroname": "Hero_DiseasedRider",
+            "exp": "8766"
+        },
+        {
+            "heroname": "Hero_HellDemon",
+            "exp": "8033"
+        },
+        {
+            "heroname": "Hero_Panda",
+            "exp": "2187"
+        },
+        {
+            "heroname": "Hero_CorruptedDisciple",
+            "exp": "10363"
+        },
+        {
+            "heroname": "Hero_Vindicator",
+            "exp": "12851"
+        },
+        {
+            "heroname": "Hero_SandWraith",
+            "exp": "9114"
+        },
+        {
+            "heroname": "Hero_Rampage",
+            "exp": "3798"
+        },
+        {
+            "heroname": "Hero_WitchSlayer",
+            "exp": "2150"
+        },
+        {
+            "heroname": "Hero_ForsakenArcher",
+            "exp": "16824"
+        },
+        {
+            "heroname": "Hero_Engineer",
+            "exp": "7321"
+        },
+        {
+            "heroname": "Hero_Deadwood",
+            "exp": "29396"
+        },
+        {
+            "heroname": "Hero_Chipper",
+            "exp": "2830"
+        },
+        {
+            "heroname": "Hero_Bubbles",
+            "exp": "1824"
+        },
+        {
+            "heroname": "Hero_Fade",
+            "exp": "3495"
+        },
+        {
+            "heroname": "Hero_Bephelgor",
+            "exp": "12035"
+        },
+        {
+            "heroname": "Hero_Gauntlet",
+            "exp": "33712"
+        },
+        {
+            "heroname": "Hero_Tundra",
+            "exp": "9966"
+        },
+        {
+            "heroname": "Hero_Gladiator",
+            "exp": "11565"
+        },
+        {
+            "heroname": "Hero_DoctorRepulsor",
+            "exp": "16028"
+        },
+        {
+            "heroname": "Hero_FlintBeastwood",
+            "exp": "32400"
+        },
+        {
+            "heroname": "Hero_Bombardier",
+            "exp": "1117"
+        },
+        {
+            "heroname": "Hero_Moraxus",
+            "exp": "2579"
+        },
+        {
+            "heroname": "Hero_Hydromancer",
+            "exp": "10949"
+        },
+        {
+            "heroname": "Hero_Dampeer",
+            "exp": "1860"
+        },
+        {
+            "heroname": "Hero_Empath",
+            "exp": "36100"
+        },
+        {
+            "heroname": "Hero_Aluna",
+            "exp": "5752"
+        },
+        {
+            "heroname": "Hero_Tremble",
+            "exp": "520"
+        },
+        {
+            "heroname": "Hero_Silhouette",
+            "exp": "2510"
+        },
+        {
+            "heroname": "Hero_Flux",
+            "exp": "7648"
+        },
+        {
+            "heroname": "Hero_Martyr",
+            "exp": "36100"
+        },
+        {
+            "heroname": "Hero_Ra",
+            "exp": "4363"
+        },
+        {
+            "heroname": "Hero_Parasite",
+            "exp": "478"
+        },
+        {
+            "heroname": "Hero_EmeraldWarden",
+            "exp": "7664"
+        },
+        {
+            "heroname": "Hero_Revenant",
+            "exp": "16110"
+        },
+        {
+            "heroname": "Hero_MonkeyKing",
+            "exp": "2620"
+        },
+        {
+            "heroname": "Hero_DrunkenMaster",
+            "exp": "2891"
+        },
+        {
+            "heroname": "Hero_MasterOfArms",
+            "exp": "36100"
+        },
+        {
+            "heroname": "Hero_Rhapsody",
+            "exp": "3385"
+        },
+        {
+            "heroname": "Hero_Geomancer",
+            "exp": "8816"
+        },
+        {
+            "heroname": "Hero_Midas",
+            "exp": "4572"
+        },
+        {
+            "heroname": "Hero_Cthulhuphant",
+            "exp": "6165"
+        },
+        {
+            "heroname": "Hero_Monarch",
+            "exp": "14425"
+        },
+        {
+            "heroname": "Hero_Gemini",
+            "exp": "2688"
+        },
+        {
+            "heroname": "Hero_Dreadknight",
+            "exp": "11887"
+        },
+        {
+            "heroname": "Hero_ShadowBlade",
+            "exp": "22131"
+        },
+        {
+            "heroname": "Hero_Artesia",
+            "exp": "3920"
+        },
+        {
+            "heroname": "Hero_Taint",
+            "exp": "2231"
+        },
+        {
+            "heroname": "Hero_Berzerker",
+            "exp": "3435"
+        },
+        {
+            "heroname": "Hero_FlameDragon",
+            "exp": "8461"
+        },
+        {
+            "heroname": "Hero_Kenisis",
+            "exp": "12699"
+        },
+        {
+            "heroname": "Hero_Gunblade",
+            "exp": "2693"
+        },
+        {
+            "heroname": "Hero_Blitz",
+            "exp": "614"
+        },
+        {
+            "heroname": "Hero_Artillery",
+            "exp": "20138"
+        },
+        {
+            "heroname": "Hero_Ellonia",
+            "exp": "17709"
+        },
+        {
+            "heroname": "Hero_Riftmage",
+            "exp": "1142"
+        },
+        {
+            "heroname": "Hero_Plant",
+            "exp": "3751"
+        },
+        {
+            "heroname": "Hero_Ravenor",
+            "exp": "7027"
+        },
+        {
+            "heroname": "Hero_Prophet",
+            "exp": "3149"
+        },
+        {
+            "heroname": "Hero_Rally",
+            "exp": "4237"
+        },
+        {
+            "heroname": "Hero_Oogie",
+            "exp": "6337"
+        },
+        {
+            "heroname": "Hero_Solstice",
+            "exp": "4240"
+        },
+        {
+            "heroname": "Hero_Pearl",
+            "exp": "12417"
+        },
+        {
+            "heroname": "Hero_Grinex",
+            "exp": "3258"
+        },
+        {
+            "heroname": "Hero_Lodestone",
+            "exp": "12577"
+        },
+        {
+            "heroname": "Hero_Bushwack",
+            "exp": "10208"
+        },
+        {
+            "heroname": "Hero_Salomon",
+            "exp": "3881"
+        },
+        {
+            "heroname": "Hero_Prisoner",
+            "exp": "22240"
+        },
+        {
+            "heroname": "Hero_SirBenzington",
+            "exp": "977"
+        },
+        {
+            "heroname": "Hero_Circe",
+            "exp": "5173"
+        },
+        {
+            "heroname": "Hero_Klanx",
+            "exp": "7816"
+        },
+        {
+            "heroname": "Hero_Riptide",
+            "exp": "4693"
+        },
+        {
+            "heroname": "Hero_Moira",
+            "exp": "2159"
+        },
+        {
+            "heroname": "Hero_Tarot",
+            "exp": "36100"
+        },
+        {
+            "heroname": "Hero_Kane",
+            "exp": "6147"
+        },
+        {
+            "heroname": "Hero_Calamity",
+            "exp": "1702"
+        },
+        {
+            "heroname": "Hero_Deadlift",
+            "exp": "24814"
+        },
+        {
+            "heroname": "Hero_Parallax",
+            "exp": "8903"
+        },
+        {
+            "heroname": "Hero_Skrap",
+            "exp": "7470"
+        },
+        {
+            "heroname": "Hero_Nitro",
+            "exp": "11670"
+        },
+        {
+            "heroname": "Hero_KingKlout",
+            "exp": "1102"
+        },
+        {
+            "heroname": "Hero_Shellshock",
+            "exp": "31210"
+        },
+        {
+            "heroname": "Hero_Ichor",
+            "exp": "5133"
+        },
+        {
+            "heroname": "Hero_Adrenaline",
+            "exp": "10079"
+        },
+        {
+            "heroname": "Hero_Apex",
+            "exp": "1872"
+        },
+        {
+            "heroname": "Hero_Warchief",
+            "exp": "6756"
+        },
+        {
+            "heroname": "Hero_Sapphire",
+            "exp": "17892"
+        },
+        {
+            "heroname": "Hero_Goldenveil",
+            "exp": "1636"
+        },
+        {
+            "heroname": "Hero_Chi",
+            "exp": "36100"
+        },
+        {
+            "heroname": "Hero_Mimix",
+            "exp": "7682"
+        }
+    ],
+    "mastery_rewards": [
+        {
+            "level": 1,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 3609,
+                "product_name": "Mastery Boost",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_boost.tga",
+                "quantity": 2,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 2,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 3860,
+                "product_name": "Iron Mastery Badge",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_iron_badge.tga",
+                "quantity": 1,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 3,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 0,
+                "product_name": "",
+                "product_local_content": "",
+                "quantity": 0,
+                "points": 0,
+                "mmpoints": 75,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 5,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 3609,
+                "product_name": "Mastery Boost",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_boost.tga",
+                "quantity": 5,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 7,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 0,
+                "product_name": "",
+                "product_local_content": "",
+                "quantity": 0,
+                "points": 0,
+                "mmpoints": 100,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 10,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 3861,
+                "product_name": "Bronze Mastery Badge",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_bronze_badge.tga",
+                "quantity": 1,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 15,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 0,
+                "product_name": "",
+                "product_local_content": "",
+                "quantity": 0,
+                "points": 0,
+                "mmpoints": 150,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 20,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 3609,
+                "product_name": "Mastery Boost",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_boost.tga",
+                "quantity": 10,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 25,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 0,
+                "product_name": "",
+                "product_local_content": "",
+                "quantity": 0,
+                "points": 0,
+                "mmpoints": 175,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 30,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 0,
+                "product_name": "",
+                "product_local_content": "",
+                "quantity": 0,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 50
+            }
+        },
+        {
+            "level": 35,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 4225,
+                "product_name": "Silver Mastery Badge",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_silver_badge.tga",
+                "quantity": 1,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 40,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 3609,
+                "product_name": "Mastery Boost",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_boost.tga",
+                "quantity": 10,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 45,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 0,
+                "product_name": "",
+                "product_local_content": "",
+                "quantity": 0,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 100
+            }
+        },
+        {
+            "level": 50,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 0,
+                "product_name": "",
+                "product_local_content": "",
+                "quantity": 0,
+                "points": 100,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 55,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 4605,
+                "product_name": "Super boost",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_super_boost.tga",
+                "quantity": 1,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 60,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 4634,
+                "product_name": "Gold Mastery Badge",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_gold_badge.tga",
+                "quantity": 1,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 65,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 3609,
+                "product_name": "Mastery Boost",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_boost.tga",
+                "quantity": 10,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 70,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 0,
+                "product_name": "",
+                "product_local_content": "",
+                "quantity": 0,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 100
+            }
+        },
+        {
+            "level": 75,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 4605,
+                "product_name": "Super boost",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_super_boost.tga",
+                "quantity": 1,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 80,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 4635,
+                "product_name": "Epic Mastery Badge",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_epic_badge.tga",
+                "quantity": 1,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 85,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 3609,
+                "product_name": "Mastery Boost",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_boost.tga",
+                "quantity": 10,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 90,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 0,
+                "product_name": "",
+                "product_local_content": "",
+                "quantity": 0,
+                "points": 0,
+                "mmpoints": 200,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 95,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 4605,
+                "product_name": "Super boost",
+                "product_local_content": "\/ui\/fe2\/store\/icons\/mastery_super_boost.tga",
+                "quantity": 1,
+                "points": 0,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        },
+        {
+            "level": 100,
+            "alreadygot": true,
+            "reward": {
+                "product_id": 0,
+                "product_name": "",
+                "product_local_content": "",
+                "quantity": 0,
+                "points": 100,
+                "mmpoints": 0,
+                "tickets": 0
+            }
+        }
+    ],
+    "vested_threshold": 5,
+    "0": true
+}

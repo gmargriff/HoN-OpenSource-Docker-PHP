@@ -1,0 +1,8 @@
+{
+    "require": {
+        "gabordemooij/redbean": "^5.7",
+        "pear/math_biginteger": "^1.0",
+        "windwalker/srp": "^1.0",
+        "brick/math": "^0.11.0"
+    }
+}
