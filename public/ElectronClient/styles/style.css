@@ -165,7 +165,7 @@ body * {
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
 
 .play_button {
@@ -174,8 +174,8 @@ body * {
 }
 
 .play_button img {
-    width: 500px;
-    max-width: 30vw;
+    width: 230px;
+    max-width: 20vw;
 }
 
 @keyframes fade-in-out {
