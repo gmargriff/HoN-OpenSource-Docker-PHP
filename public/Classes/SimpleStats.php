@@ -3,7 +3,8 @@
 namespace Classes;
 
 class SimpleStats {
-/// <summary>
+    /* 
+    /// <summary>
     /// The name and clan tag of the account.
     public string $nickname;
 
@@ -209,5 +210,5 @@ public class SimpleSeasonStats
     ///     Potentially, the number of account levels gained during the season.
     /// </summary>
     [PhpProperty("current_level")]
-    public required int LevelsGainedThisSeason { get; set; }
+    public required int LevelsGainedThisSeason { get; set; } */
 }
