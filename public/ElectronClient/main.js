@@ -20,7 +20,7 @@ const createWindow = () => {
         }
     })
     win.setMenu(null);
-     win.openDevTools();
+    // win.openDevTools();
     win.loadFile('index.html');
 }
 

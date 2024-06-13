@@ -8,7 +8,7 @@ foreach(array_filter($enabled_skins, function($e) {
 }
 
 die();
-$myfile = fopen("public_docs/" . date("YmdHis") . "request_" . "store" . ".json", "w") or die("Unable to open file!");
+$myfile = fopen("public_docs/" . date("YmdHis") . "store" . "-request" . ".json", "w") or die("Unable to open file!");
 $response = false;
 try {
     $txt = array(

@@ -167,6 +167,6 @@ if (isset($_REQUEST['f'])) {
         $filtered = $guides->get_guide($_REQUEST['gid'], $_REQUEST['hero'], $_REQUEST['hosttime']);
         echo serialize($filtered);
     } else {
-        file_put_contents("./public_docs/" . date("YmdHis") . "-unkown.json", json_encode($_REQUEST));
+        file_put_contents("./public_docs/" . date("YmdHis") . "-unknown-request.json", json_encode($_REQUEST));
     }
 }
