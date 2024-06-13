@@ -41,24 +41,23 @@ ipcMain.handle("openHoNRegister", () => {
 });
 
 ipcMain.handle("openHonClient", (e, params) => {
-    let userlogin_file = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game", "login.cfg");
-    if (!fs.existsSync(userlogin_file)) {
-        fs.mkdirSync(path.dirname(userlogin_file), { recursive: true });
-    }
-    let logincfg = `// *** DO NOT EVER SHARE THIS FILE WITH ANYONE *** \n// *** STAFF MEMBERS WILL NOT ASK FOR THIS FILE *** \n// *** EVEN THOUGH YOUR PASSWORD IS NOT VISIBLE *** \n// *** THIS INFORMATION CAN BE USED TO STEAL YOUR ACCOUNT *** \nlogin_rememberName 1\nlogin_name ${params.username}\nlogin_rememberPassword 1\nlogin_password ${params.hash}`
-    fs.writeFileSync(userlogin_file, logincfg);
-    
+    // Create variable to keep parameters for game launch
     let parameters = false;
+
+    // Get the current environment documents folder and check if HoN folder exists.
+    // Creates if it doesn't
     let userlogin_folder = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game");
 
     if (!fs.existsSync(userlogin_folder)) {
         fs.mkdirSync(path.dirname(userlogin_folder), { recursive: true });
     }
 
+    // Check if a user.cfg file exists in HoN folder and load it's parameters it it does
     if (fs.existsSync(path.join(userlogin_folder, "user.cfg"))) {
         parameters = JSON.parse(fs.readFileSync(path.join(userlogin_folder, "user.cfg"), { encoding: "utf8" }))
     }
 
+    // If no parameters have been set, create a new config
     if (!parameters) {
         parameters = {
             WINE_PATH: os.platform() !== "win32" && commandExistsSync('wine') ? "wine" : false,
@@ -68,6 +67,7 @@ ipcMain.handle("openHonClient", (e, params) => {
         }
     }
 
+    // If user is not on windows, ask for wine path and WINEPREFIX for HoN
     if (os.platform() !== "win32") {
         while (!parameters.WINE_PATH) {
             parameters.WINE_PATH = dialog.showOpenDialogSync({
@@ -91,6 +91,7 @@ ipcMain.handle("openHonClient", (e, params) => {
         }
     }
 
+    // Asks for HoN executable
     while (!parameters.HON_EXE || !fs.existsSync(parameters.HON_EXE)) {
         parameters.HON_EXE = dialog.showOpenDialogSync({
             properties: ['openFile'],
@@ -103,10 +104,26 @@ ipcMain.handle("openHonClient", (e, params) => {
         }
     }
 
+    // Writes the current configs to user.cfg
     fs.writeFileSync(path.join(userlogin_folder, "user.cfg"), JSON.stringify(parameters));
 
+    // Create a config file for current user auto login on game
+    let userlogin_file = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game", "login.cfg");
+    if (!fs.existsSync(userlogin_file)) {
+        fs.mkdirSync(path.dirname(userlogin_file), { recursive: true });
+    }
+    let logincfg = `// *** DO NOT EVER SHARE THIS FILE WITH ANYONE *** \n// *** STAFF MEMBERS WILL NOT ASK FOR THIS FILE *** \n// *** EVEN THOUGH YOUR PASSWORD IS NOT VISIBLE *** \n// *** THIS INFORMATION CAN BE USED TO STEAL YOUR ACCOUNT *** \nlogin_rememberName 1\nlogin_name ${params.username}\nlogin_rememberPassword 1\nlogin_password ${params.hash}`
+    fs.writeFileSync(userlogin_file, logincfg);
+
+    // Start game
     let loadClient = "";
     if (parameters.WINEPREFIX) {
+        // If user not on windows, creates login.cfg inside WINEPREFIX
+        let prefixlogin_file = path.join(parameters.WINEPREFIX, "drive_c", "users", "steamuser", "Documents", "Heroes of Newerth x64", "game", "login.cfg");
+        if (!fs.existsSync(prefixlogin_file)) {
+            fs.mkdirSync(path.dirname(prefixlogin_file), { recursive: true });
+        }
+        fs.writeFileSync(prefixlogin_file, logincfg);
         loadClient = `WINEPREFIX="${parameters.WINEPREFIX}" ${parameters.WINE_PATH} "${parameters.HON_EXE}" -masterserver ${parameters.MASTERSERVER}`;
     } else {
         loadClient = `"${parameters.HON_EXE}" -masterserver ${parameters.MASTERSERVER}`;
