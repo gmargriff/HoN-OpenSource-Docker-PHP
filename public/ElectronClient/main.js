@@ -40,16 +40,14 @@ ipcMain.handle("openHoNRegister", () => {
     shell.openExternal("http://192.168.100.6:8080");
 });
 
-ipcMain.handle("handleLogin", (e, params) => {
+ipcMain.handle("openHonClient", (e, params) => {
     let userlogin_file = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game", "login.cfg");
     if (!fs.existsSync(userlogin_file)) {
         fs.mkdirSync(path.dirname(userlogin_file), { recursive: true });
     }
     let logincfg = `// *** DO NOT EVER SHARE THIS FILE WITH ANYONE *** \n// *** STAFF MEMBERS WILL NOT ASK FOR THIS FILE *** \n// *** EVEN THOUGH YOUR PASSWORD IS NOT VISIBLE *** \n// *** THIS INFORMATION CAN BE USED TO STEAL YOUR ACCOUNT *** \nlogin_rememberName 1\nlogin_name ${params.username}\nlogin_rememberPassword 1\nlogin_password ${params.hash}`
     fs.writeFileSync(userlogin_file, logincfg);
-});
-
-ipcMain.handle("openHonClient", () => {
+    
     let parameters = false;
     let userlogin_folder = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game");
 

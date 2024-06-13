@@ -4,11 +4,8 @@ let indexBridge = {
     openHoNRegister: async () => {
         await ipcRenderer.invoke("openHoNRegister");
     },
-    openHonClient: async () => {
-        await ipcRenderer.invoke("openHonClient");
-    },
-    handleLogin: async (params) => {
-        await ipcRenderer.invoke("handleLogin", params);
+    openHonClient: async (params) => {
+        await ipcRenderer.invoke("openHonClient", params);
     }
 }
 

@@ -46,7 +46,8 @@
 
     function loadGame(btn) {
         btn.style.display = "none";
-        window.indexBridge.openHonClient();
+        const userData = JSON.parse(sessionStorage.getItem("user"));
+        window.indexBridge.openHonClient(userData);
     }
     
 </script>
