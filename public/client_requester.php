@@ -6,6 +6,7 @@ use \RedBeanPHP\R as R;
 
 use Brick\Math\BigInteger;
 use Classes\Guides;
+use Classes\SimpleStats;
 use Classes\SRPClient;
 use Classes\SRPServer;
 
@@ -36,7 +37,7 @@ if (!function_exists('getallheaders')) {
 }
 
 if (isset($_REQUEST['f'])) {
-
+    $response = "";
     if ($_REQUEST['f'] == "get_account_all_hero_stats") {
         $response = file_get_contents("./public_docs/user_all_hero_stats.json");
         $response = json_decode($response, true);
@@ -49,8 +50,15 @@ if (isset($_REQUEST['f'])) {
         $stats["name"] = $_REQUEST["nickname"]; // Clan name
         $stats["last_activity"] = date("d/m/Y");
         echo serialize($stats);
+    } else if ($_REQUEST['f'] == "show_simple_stats") {
+        $user_stats = new SimpleStats();
+        $user_stats->nickname = "[" . $_REQUEST["nickname"] . "]" . $_REQUEST["nickname"];
+        $user_stats = json_decode(json_encode($user_stats), true);
+        $user_stats["0"] = 1;
+        $response = serialize($user_stats);
+        echo $response;
     } else if ($_REQUEST['f'] == "get_products") {
-        $response = file_get_contents("public_docs/store_products.json");
+        $response = file_get_contents("public_docs/store_products_model.json");
         $response = json_decode($response, true);
         echo serialize($response);
     } else if ($_REQUEST['f'] == "pre_auth") {
@@ -166,7 +174,14 @@ if (isset($_REQUEST['f'])) {
         $guides = new Guides;
         $filtered = $guides->get_guide($_REQUEST['gid'], $_REQUEST['hero'], $_REQUEST['hosttime']);
         echo serialize($filtered);
-    } else {
-        file_put_contents("./public_docs/" . date("YmdHis") . "-unknown-request.json", json_encode($_REQUEST));
     }
+
+    $request_id = isset($_REQUEST["f"]) ? $_REQUEST["f"] : "unknown";
+
+    $write = array(
+        "request" => $_REQUEST,
+        "response" => $response
+    );
+
+    file_put_contents("./public_docs/" . date("YmdHis") . "$request_id-request.json", json_encode($write));
 }
