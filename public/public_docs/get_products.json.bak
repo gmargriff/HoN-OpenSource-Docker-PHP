@@ -11512,6 +11512,15 @@
                 "dynamic": "0",
                 "purchasable": "0"
             },
+            "5616": {
+                "name": "Hero_MonkeyKing.Alt15",
+                "cname": "Prodigy King",
+                "cost": "999",
+                "premium": "0",
+                "premium_mmp_cost": "9002",
+                "dynamic": "0",
+                "purchasable": "0"
+            },
             "5617": {
                 "name": "Hero_Hiro.Alt14",
                 "cname": "Suzaku Swiftblade",

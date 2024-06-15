@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db
--- Tempo de geração: 13/06/2024 às 02:13
+-- Tempo de geração: 15/06/2024 às 14:52
 -- Versão do servidor: 10.1.48-MariaDB-1~bionic
 -- Versão do PHP: 8.2.8
 
@@ -31,7 +31,10 @@ CREATE TABLE `players` (
   `id` int(11) UNSIGNED NOT NULL,
   `username` varchar(191) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `salt` varchar(191) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `verifier` varchar(191) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+  `verifier` varchar(191) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `points` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '0',
+  `mmpoints` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '0',
+  `cookie` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------

@@ -44,14 +44,26 @@ if (isset($_REQUEST['f'])) {
         $response = serialize($response);
         echo $response;
     } else if ($_REQUEST['f'] == "show_stats") {
+        $player = R::findOne("players", " username = ?", [$_REQUEST["nickname"]]);
+        if (!$player) {
+            echo "Player not found";
+            die();
+        }
         $stats = file_get_contents("public_docs/user_model_stats.json");
         $stats = json_decode($stats, true);
-        $stats["nickname"] = $_REQUEST["nickname"];
-        $stats["name"] = $_REQUEST["nickname"]; // Clan name
+        $stats["nickname"] = $player->username;
+        $stats["name"] = strtoupper($player->username[0]); // Clan name
         $stats["last_activity"] = date("m/d/Y");
+        $stats["account_id"] = $player->id;
         echo serialize($stats);
     } else if ($_REQUEST['f'] == "show_simple_stats") {
+        $player = R::findOne("players", " username = ?", [$_REQUEST["nickname"]]);
+        if (!$player) {
+            echo "Player not found";
+            die();
+        }
         $user_stats = new SimpleStats();
+        $user_stats->account_id = $player->id;
         $user_stats->nickname = $_REQUEST["nickname"];
         $user_stats = json_decode(json_encode($user_stats), true);
         // Enable alt avatars
@@ -166,8 +178,23 @@ if (isset($_REQUEST['f'])) {
         $user_model = json_decode($user_model, true);
         $user_model["proof"] = $serverSession->Proof;
         $user_model["nickname"] = $player->username;
+        $user_model["account_id"] = $player->id;
         $user_model["identities"][0][0] = $player->username;
-
+        $user_model["identities"][0][1] = $player->id;
+        $user_model["ip"] = $_SERVER['REMOTE_ADDR'];
+        $user_model["buddy_list"] = array(
+            "$player->id" => array()
+        );
+        $user_model["ignored_list"] = $user_model["buddy_list"];
+        $user_model["banned_list"] = $user_model["buddy_list"];
+        $user_model["infos"]["account_id"] = $player->id;
+        $user_model["points"] = $player->points;
+        $user_model["mmpoints"] = $player->mmpoints;
+        $user_model["timestamp"] = time();
+        $user_model["cookie"] = md5($player->id . time());
+        $player->cookie = $user_model["cookie"];
+        R::store($player);
+        
         // Enable alt avatars
         $alt_avatars = R::find("playerskins", " player = ?", [$player->username]);
         foreach ($alt_avatars as $skin) {
