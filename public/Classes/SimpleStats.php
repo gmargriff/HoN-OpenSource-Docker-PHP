@@ -39,7 +39,7 @@ class SimpleStats
     ///     The total number of matches that the account has played.
     /// </summary>
     // [PhpProperty("total_played")]
-    public int $total_played = 0;
+    public int $total_played = 1;
 
     /// <summary>
     ///     The current season.
@@ -52,7 +52,7 @@ class SimpleStats
     ///     Unknown.
     /// </summary>
     // [PhpProperty("season_level")]
-    public int $season_level = 0;
+    public int $season_level = 1;
 
     /// <summary>
     ///     Simple current season statistics.
@@ -182,7 +182,7 @@ class SimpleStats
     ///     Seems to be set to "true" on a successful response, or to "false" if an error occurs.
     /// </summary>
     // [PhpProperty(0)]
-    public bool $Zero = true;
+    // public bool $Zero = true;
 
     function __construct()
     {

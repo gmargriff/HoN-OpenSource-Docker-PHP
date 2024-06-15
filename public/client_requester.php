@@ -41,26 +41,35 @@ if (isset($_REQUEST['f'])) {
     if ($_REQUEST['f'] == "get_account_all_hero_stats") {
         $response = file_get_contents("./public_docs/user_all_hero_stats.json");
         $response = json_decode($response, true);
-        echo serialize($response);
-        die();
+        $response = serialize($response);
+        echo $response;
     } else if ($_REQUEST['f'] == "show_stats") {
         $stats = file_get_contents("public_docs/user_model_stats.json");
         $stats = json_decode($stats, true);
         $stats["nickname"] = $_REQUEST["nickname"];
         $stats["name"] = $_REQUEST["nickname"]; // Clan name
-        // $stats["last_activity"] = date("d/m/Y");
+        $stats["last_activity"] = date("m/d/Y");
         echo serialize($stats);
     } else if ($_REQUEST['f'] == "show_simple_stats") {
         $user_stats = new SimpleStats();
-        $user_stats->nickname = "[" . $_REQUEST["nickname"] . "]" . $_REQUEST["nickname"];
+        $user_stats->nickname = $_REQUEST["nickname"];
         $user_stats = json_decode(json_encode($user_stats), true);
-        $user_stats["0"] = 1;
+        // Enable alt avatars
+        $alt_avatars = R::find("playerskins", " player = ?", [$_REQUEST["nickname"]]);
+        $skin_count = 0;
+        foreach ($alt_avatars as $skin) {
+            $skin_count++;
+            array_push($user_stats["my_upgrades"], $skin->code);
+        }
+        $user_stats["avatar_num"] = $skin_count;
+        $user_stats[0] = 1;
         $response = serialize($user_stats);
         echo $response;
     } else if ($_REQUEST['f'] == "get_products") {
         $response = file_get_contents("public_docs/store_products_model.json");
         $response = json_decode($response, true);
-        echo serialize($response);
+        $response = serialize($response);
+        echo $response;
     } else if ($_REQUEST['f'] == "pre_auth") {
         // Check if client sent required information
         $identity = $_REQUEST["login"] ? $_REQUEST["login"] : false;
