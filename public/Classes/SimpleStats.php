@@ -12,7 +12,7 @@ class SimpleStats
     /// <summary>
     ///     The ID of the account.
     /// </summary>
-    public int $account_id = 1;
+    public int $account_id = 8941120;
 
     /// <summary>
     ///     The level of the account.
