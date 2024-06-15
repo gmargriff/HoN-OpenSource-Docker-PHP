@@ -75,13 +75,13 @@ class SimpleStats
     ///     The names of the account's top 4 awards.
     /// </summary>
     // [PhpProperty("award_top4_name")]
-    public $award_top4_name= [ "awd_masst", "awd_mhdd", "awd_mbdmg", "awd_lgks" ];
+    public $award_top4_name = ["awd_masst", "awd_mhdd", "awd_mbdmg", "awd_lgks"];
 
     /// <summary>
     ///     The counts of the account's top 4 awards.
     /// </summary>
     // [PhpProperty("award_top4_num")]
-    public $award_top4_num= [ 1005, 1006, 1007, 1008 ];
+    public $award_top4_num = [1005, 1006, 1007, 1008];
 
     /// <summary>
     ///     The index of the custom icon equipped, or "0" if no custom icon is equipped.
@@ -116,19 +116,31 @@ class SimpleStats
     ///     </code>
     /// </summary>
     // [PhpProperty("my_upgrades")]
-    public $my_upgrades = Array();
+    public $my_upgrades = [
+        "m.allmodes.pass",
+        "h.AllHeroes.Hero",
+        "cc.white",
+        "ai.Default Icon"
+    ];
 
     /// <summary>
     ///     The collection of selected store items.
     /// </summary>
     //[PhpProperty("selected_upgrades")]
-    public $selected_upgrades= Array();
+    public $selected_upgrades = [
+        "cc.white",
+        "ai.Default Icon"
+    ];
 
     /// <summary>
     ///     Metadata attached to each of the account's owned store items.
     /// </summary>
     // [PhpProperty("my_upgrades_info")]
-    public $my_upgrades_info= Array();
+    public $my_upgrades_info = [
+        "cc.white" => [
+            "data" => ""
+        ]
+    ];
 
     /// <summary>
     ///     Unknown.
@@ -173,7 +185,7 @@ class SimpleStats
     public bool $Zero = true;
 
     function __construct()
-    {   
+    {
         $this->season_normal = new SimpleSeasonStats();
         $this->season_casual = new SimpleSeasonStats();
         $this->timestamp = time();

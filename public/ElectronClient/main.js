@@ -70,6 +70,13 @@ ipcMain.handle("openHonClient", (e, params) => {
     // If user is not on windows, ask for wine path and WINEPREFIX for HoN
     if (os.platform() !== "win32") {
         while (!parameters.WINE_PATH) {
+            dialog.showMessageBoxSync(options = {
+                message: "Select a valid wine binary",
+                type: "info",
+                buttons: ["Open"],
+                title: "Select Wine",
+                noLink: true
+            })
             parameters.WINE_PATH = dialog.showOpenDialogSync({
                 properties: ['openFile']
             })
@@ -82,6 +89,13 @@ ipcMain.handle("openHonClient", (e, params) => {
         }
 
         while (!parameters.WINEPREFIX || !fs.existsSync(parameters.WINEPREFIX)) {
+            dialog.showMessageBoxSync(options = {
+                message: "Select a valid path for Wine Prefix",
+                type: "info",
+                buttons: ["Open"],
+                title: "Select WINEPREFIX",
+                noLink: true
+            })
             parameters.WINEPREFIX = dialog.showOpenDialogSync({
                 properties: ['openDirectory']
             })
@@ -93,6 +107,13 @@ ipcMain.handle("openHonClient", (e, params) => {
 
     // Asks for HoN executable
     while (!parameters.HON_EXE || !fs.existsSync(parameters.HON_EXE)) {
+        dialog.showMessageBoxSync(options = {
+            message: "Please, select your hon_x64.exe file",
+            type: "info",
+            buttons: ["Open"],
+            title: "Select hon_x64.exe",
+            noLink: true
+        })
         parameters.HON_EXE = dialog.showOpenDialogSync({
             properties: ['openFile'],
             filters: [
@@ -104,8 +125,6 @@ ipcMain.handle("openHonClient", (e, params) => {
         }
     }
 
-    // Writes the current configs to user.cfg
-    fs.writeFileSync(path.join(userlogin_folder, "user.cfg"), JSON.stringify(parameters));
 
     // Create a config file for current user auto login on game
     let userlogin_file = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game", "login.cfg");
@@ -114,6 +133,9 @@ ipcMain.handle("openHonClient", (e, params) => {
     }
     let logincfg = `// *** DO NOT EVER SHARE THIS FILE WITH ANYONE *** \n// *** STAFF MEMBERS WILL NOT ASK FOR THIS FILE *** \n// *** EVEN THOUGH YOUR PASSWORD IS NOT VISIBLE *** \n// *** THIS INFORMATION CAN BE USED TO STEAL YOUR ACCOUNT *** \nlogin_rememberName 1\nlogin_name ${params.username}\nlogin_rememberPassword 1\nlogin_password ${params.hash}`
     fs.writeFileSync(userlogin_file, logincfg);
+
+    // Writes the current configs to user.cfg
+    fs.writeFileSync(path.join(userlogin_folder, "user.cfg"), JSON.stringify(parameters));
 
     // Start game
     let loadClient = "";

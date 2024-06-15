@@ -48,7 +48,7 @@ if (isset($_REQUEST['f'])) {
         $stats = json_decode($stats, true);
         $stats["nickname"] = $_REQUEST["nickname"];
         $stats["name"] = $_REQUEST["nickname"]; // Clan name
-        $stats["last_activity"] = date("d/m/Y");
+        // $stats["last_activity"] = date("d/m/Y");
         echo serialize($stats);
     } else if ($_REQUEST['f'] == "show_simple_stats") {
         $user_stats = new SimpleStats();
@@ -165,7 +165,8 @@ if (isset($_REQUEST['f'])) {
             array_push($user_model["my_upgrades"], $skin->code);
         }
 
-        echo serialize($user_model);
+        $response = serialize($user_model);
+        echo $response;
     } else if ($_REQUEST['f'] == "get_guide_list_filtered") {
         $guides = new Guides;
         $filtered = $guides->get_guide_list_filtered($_REQUEST['hero'], $_REQUEST['hosttime']);
