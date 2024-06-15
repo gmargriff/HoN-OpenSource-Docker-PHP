@@ -176,13 +176,15 @@ if (isset($_REQUEST['f'])) {
         $filtered = $guides->get_guide($_REQUEST['gid'], $_REQUEST['hero'], $_REQUEST['hosttime']);
         echo serialize($filtered);
     }
+    
+    if ($env->ENVIRONMENT == "debug") {
+        $request_id = isset($_REQUEST["f"]) ? $_REQUEST["f"] : "unknown";
 
-    $request_id = isset($_REQUEST["f"]) ? $_REQUEST["f"] : "unknown";
+        $write = array(
+            "request" => $_REQUEST,
+            "response" => $response
+        );
 
-    $write = array(
-        "request" => $_REQUEST,
-        "response" => $response
-    );
-
-    file_put_contents("./public_docs/" . date("YmdHis") . "$request_id-request.json", json_encode($write));
+        file_put_contents("./public_docs/" . date("YmdHis") . "$request_id-request.json", json_encode($write));
+    }
 }
