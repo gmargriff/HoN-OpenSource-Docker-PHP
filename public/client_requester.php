@@ -6,9 +6,11 @@ use \RedBeanPHP\R as R;
 
 use Brick\Math\BigInteger;
 use Classes\Guides;
+use Classes\ServerForCreateListResponse;
 use Classes\SimpleStats;
 use Classes\SRPClient;
 use Classes\SRPServer;
+
 
 $server = SRPServer::create(
     BigInteger::fromBase($env->S2_N, 16),
@@ -81,6 +83,10 @@ if (isset($_REQUEST['f'])) {
         $response = file_get_contents("public_docs/get_products.json");
         $response = json_decode($response, true);
         $response = serialize($response);
+        echo $response;
+    } else if ($_REQUEST['f'] == "server_list") {
+        $gs = new ServerForCreateListResponse($_REQUEST["cookie"], $env->S2_CHAT_SALT);
+        $response = serialize(json_decode(json_encode($gs), true));
         echo $response;
     } else if ($_REQUEST['f'] == "pre_auth") {
         // Check if client sent required information
@@ -194,7 +200,7 @@ if (isset($_REQUEST['f'])) {
         $user_model["cookie"] = md5($player->id . time());
         $player->cookie = $user_model["cookie"];
         R::store($player);
-        
+
         // Enable alt avatars
         $alt_avatars = R::find("playerskins", " player = ?", [$player->username]);
         foreach ($alt_avatars as $skin) {
