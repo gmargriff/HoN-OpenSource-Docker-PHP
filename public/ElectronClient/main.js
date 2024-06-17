@@ -94,7 +94,7 @@ ipcMain.handle("submitGameLogs", () => {
                 if (fs.existsSync(path.join(logs_folder, file))) {
                     let file_content = fs.readFileSync(path.join(logs_folder, file), { encoding: "ucs2" });
                     let game_info = {
-                        start: "",
+                        start: Date.now(),
                         players: [],
                         mode: "",
                         time: "",
@@ -159,9 +159,10 @@ ipcMain.handle("submitGameLogs", () => {
                         }
                     })
 
-                    // If file is older than 6 hours and has no winner, remove it
+                    // If file is older than 3 hours and has no winner, remove it
+                    let timestamp = Date.now();
                     if (game_info.start <= (Date.now() - (1000 * 60 * 60 * 3)) && !game_info.winner) {
-                        fs.unlinkSync(path.join(logs_folder, file))
+                        fs.renameSync(path.join(logs_folder, file), path.join(logs_folder, `removed_${timestamp}_${file}`));
                     }
 
                     // If game has winner, submit to server
@@ -171,7 +172,7 @@ ipcMain.handle("submitGameLogs", () => {
                         form_data.append("f", "game_logs");
                         axios.post(`http://${parameters.MASTERSERVER}/client_requester.php`, form_data).then(response => {
                             if (parseInt(response.data) === 200) {
-                                fs.unlinkSync(path.join(logs_folder, file))
+                                fs.renameSync(path.join(logs_folder, file), path.join(logs_folder, `sent_${timestamp}_${file}`));
                             }
                         });
                     }
