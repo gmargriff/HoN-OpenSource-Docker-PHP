@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db
--- Tempo de geração: 15/06/2024 às 14:52
+-- Tempo de geração: 17/06/2024 às 12:42
 -- Versão do servidor: 10.1.48-MariaDB-1~bionic
 -- Versão do PHP: 8.2.8
 
@@ -20,6 +20,37 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `database`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `games`
+--
+
+CREATE TABLE `games` (
+  `id` int(11) UNSIGNED NOT NULL,
+  `identifier` varchar(191) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `start` double DEFAULT NULL,
+  `mode` varchar(191) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `duration` int(10) UNSIGNED DEFAULT NULL,
+  `duration_r` varchar(191) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `winner` tinyint(3) UNSIGNED DEFAULT NULL,
+  `win_reward` double DEFAULT NULL,
+  `lose_reward` double DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `games_players`
+--
+
+CREATE TABLE `games_players` (
+  `id` int(11) UNSIGNED NOT NULL,
+  `games_id` int(10) UNSIGNED DEFAULT NULL,
+  `players_id` int(10) UNSIGNED DEFAULT NULL,
+  `winner` tinyint(3) UNSIGNED DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 -- --------------------------------------------------------
 
@@ -72,6 +103,21 @@ CREATE TABLE `skins` (
 --
 
 --
+-- Índices de tabela `games`
+--
+ALTER TABLE `games`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Índices de tabela `games_players`
+--
+ALTER TABLE `games_players`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `UQ_4ffc17e8e380f591a5bcdc16d9b7d1d900bc1053` (`games_id`,`players_id`),
+  ADD KEY `index_foreignkey_games_players_games` (`games_id`),
+  ADD KEY `index_foreignkey_games_players_players` (`players_id`);
+
+--
 -- Índices de tabela `players`
 --
 ALTER TABLE `players`
@@ -94,6 +140,18 @@ ALTER TABLE `skins`
 --
 
 --
+-- AUTO_INCREMENT de tabela `games`
+--
+ALTER TABLE `games`
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de tabela `games_players`
+--
+ALTER TABLE `games_players`
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT de tabela `players`
 --
 ALTER TABLE `players`
@@ -110,6 +168,17 @@ ALTER TABLE `playerskins`
 --
 ALTER TABLE `skins`
   MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
+-- Restrições para tabelas despejadas
+--
+
+--
+-- Restrições para tabelas `games_players`
+--
+ALTER TABLE `games_players`
+  ADD CONSTRAINT `c_fk_games_players_games_id` FOREIGN KEY (`games_id`) REFERENCES `games` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `c_fk_games_players_players_id` FOREIGN KEY (`players_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
