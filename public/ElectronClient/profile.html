@@ -49,10 +49,13 @@
     }
 
     function submitLocalGames() {
+        window.indexBridge.submitGameLogs();
         setInterval(() => {
             window.indexBridge.submitGameLogs();
         }, 10000)
     }
+
+    submitLocalGames();
 
 </script>
 
