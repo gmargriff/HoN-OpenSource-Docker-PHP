@@ -39,15 +39,14 @@ app.whenReady().then(() => {
     })
 });
 
-let bwindow = false;
-
 app.on('browser-window-created', (_, window) => {
-    bwindow = window;
     require("@electron/remote/main").enable(window.webContents)
 })
 
 ipcMain.handle("openHoNRegister", () => {
-    shell.openExternal(`http://${bwindow.masterserver}`);
+    let usercfg = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game", "user.cfg");
+    let parameters = JSON.parse(fs.readFileSync(usercfg, { encoding: "utf8" }))
+    shell.openExternal(`http://${parameters.MASTERSERVER}`);
 });
 
 ipcMain.handle("submitGameLogs", () => {
@@ -170,7 +169,7 @@ ipcMain.handle("submitGameLogs", () => {
                         let form_data = new FormData();
                         form_data.append("game", JSON.stringify(game_info));
                         form_data.append("f", "game_logs");
-                        axios.post(`http://${bwindow.masterserver}/client_requester.php`, form_data).then(response => {
+                        axios.post(`http://${parameters.MASTERSERVER}/client_requester.php`, form_data).then(response => {
                             if (parseInt(response.data) === 200) {
                                 fs.unlinkSync(path.join(logs_folder, file))
                             }
@@ -205,7 +204,7 @@ ipcMain.handle("openHonClient", (e, params) => {
             WINE_PATH: os.platform() !== "win32" && commandExistsSync('wine') ? "wine" : false,
             WINEPREFIX: false,
             HON_EXE: false,
-            MASTERSERVER: `${bwindow.masterserver}`
+            MASTERSERVER: false
         }
     }
 
