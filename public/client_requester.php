@@ -88,6 +88,48 @@ if (isset($_REQUEST['f'])) {
         $gs = new ServerForCreateListResponse($_REQUEST["cookie"], $env->S2_CHAT_SALT);
         $response = serialize(json_decode(json_encode($gs), true));
         echo $response;
+    } else if ($_REQUEST['f'] == "game_logs") {
+        $response = false;
+        try {
+            $game_info = @json_decode($_POST["game"]);
+            $game = R::findOneOrDispense("games", " identifier = ?", [md5(hash("sha256", $game_info->start . md5($_POST["game"])))]);
+            if ($game->id > 0) {
+                // Confirms the record already exists
+                throw new Exception("200");
+            }
+            $game->identifier = md5(hash("sha256", $game_info->start . md5($_POST["game"])));
+            $game->start = $game_info->start;
+            $game->mode = $game_info->mode;
+            $game->duration = $game_info->time;
+            $game->duration_r = $game_info->readable_time;
+            $game->winner = $game_info->winner;
+            $game->win_reward = round(intval($game_info->time) / 10000 * 1.3);
+            $game->lose_reward = round(intval($game_info->time) / 10000 * 0.3);
+            R::store($game);
+
+            foreach ($game_info->players as $p) {
+                $player = R::findOne("players", " username = ?", [$p->user]);
+                if ($player) {
+                    if (intval($p->team) == intval($game_info->winner)) {
+                        $player->mmpoints = $player->mmpoints + $game->win_reward;
+                    } else {
+                        $player->mmpoints = $player->mmpoints + $game->lose_reward;
+                    }
+                    $player->sharedGamesList[] = $game;
+                    R::store($player);
+
+                    $game_relation = R::findOne("games_players", " games_id = ? AND players_id = ?", [$game->id, $player->id]);
+                    $game_relation->winner = intval($p->team) == intval($game_info->winner) ? 1 : 0;
+                    R::store($game_relation);
+                }
+            }
+
+            $response = 200;
+            echo $response;
+        } catch (Exception $e) {
+            $response = $e->getMessage();
+            echo serialize($response);
+        }
     } else if ($_REQUEST['f'] == "pre_auth") {
         // Check if client sent required information
         $identity = $_REQUEST["login"] ? $_REQUEST["login"] : false;

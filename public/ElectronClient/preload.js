@@ -6,6 +6,9 @@ let indexBridge = {
     },
     openHonClient: async (params) => {
         await ipcRenderer.invoke("openHonClient", params);
+    },
+    submitGameLogs: async () => {
+        await ipcRenderer.invoke("submitGameLogs");
     }
 }
 

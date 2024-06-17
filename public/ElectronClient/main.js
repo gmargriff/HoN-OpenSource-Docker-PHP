@@ -2,6 +2,7 @@ const { app, BrowserWindow, ipcMain, shell, dialog } = require('electron')
 const path = require("node:path");
 const fs = require('node:fs');
 const os = require('node:os');
+const { default: axios } = require('axios');
 const exec = require('child_process').exec;
 const commandExistsSync = require('command-exists').sync;
 
@@ -20,8 +21,9 @@ const createWindow = () => {
         }
     })
     win.setMenu(null);
-    // win.openDevTools();
+    win.openDevTools();
     win.loadFile('index.html');
+    win.setIcon(path.join(__dirname, '/icons/icon.png'));
 }
 
 app.whenReady().then(() => {
@@ -38,6 +40,138 @@ app.whenReady().then(() => {
 
 ipcMain.handle("openHoNRegister", () => {
     shell.openExternal("http://192.168.100.6:8080");
+});
+
+ipcMain.handle("submitGameLogs", () => {
+    // Create variable to keep parameters for game launch
+    let parameters = false;
+
+    // Get the current environment documents folder and check if HoN folder exists.
+    // Creates if it doesn't
+    let userlogin_folder = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game");
+
+    if (!fs.existsSync(userlogin_folder)) {
+        fs.mkdirSync(path.dirname(userlogin_folder), { recursive: true });
+    }
+
+    // Check if a user.cfg file exists in HoN folder and load it's parameters it it does
+    if (fs.existsSync(path.join(userlogin_folder, "user.cfg"))) {
+        parameters = JSON.parse(fs.readFileSync(path.join(userlogin_folder, "user.cfg"), { encoding: "utf8" }))
+    }
+
+    // If no parameters have been set, create a new config
+    if (!parameters) {
+        parameters = {
+            WINEPREFIX: false
+        }
+    }
+
+    let logs_folder = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game", "logs");
+
+    if (parameters.WINEPREFIX) {
+        // If user not on windows, change logs_folder to inside wineprefix
+        logs_folder = path.join(parameters.WINEPREFIX, "drive_c", "users", "steamuser", "Documents", "Heroes of Newerth x64", "game", "logs");
+    }
+
+    // If folder does not exist, create it
+    if (!fs.existsSync(logs_folder)) {
+        fs.mkdirSync(path.dirname(logs_folder), { recursive: true });
+    }
+
+    // Read directory to check if there are game logs
+    fs.readdir(logs_folder, (err, files) => {
+        // Run through each file in folder
+        files.forEach(file => {
+            // If it starts with "game_", try to read it
+            if (file.startsWith("game_")) {
+                if (fs.existsSync(path.join(logs_folder, file))) {
+                    let file_content = fs.readFileSync(path.join(logs_folder, file), { encoding: "ucs2" });
+                    let game_info = {
+                        start: "",
+                        players: [],
+                        mode: "",
+                        time: "",
+                        readable_time: "",
+                        winner: false
+                    }
+                    file_content.toString().split('\n').forEach((line) => {
+                        // Process game start date
+                        if (line.includes("INFO_DATE")) {
+                            let datetime = line.split(`"`);
+                            let date = datetime[1].split(`/`);
+                            date = `${date[0]}/${date[2]}/${date[1]}`;
+                            let time = datetime[3];
+                            game_info.start = Date.parse(`${date} ${time}`);
+                        }
+                        // Process players connect to game
+                        if (line.includes("PLAYER_CONNECT")) {
+                            let pl = line.split(`"`);
+                            pl = {
+                                "order": parseInt(pl[0].replace("PLAYER_CONNECT player:", "").replace(" name:", "")),
+                                "user": pl[1],
+                                "team": false
+                            }
+                            game_info.players.push(pl);
+                        }
+                        // Add player to correct team
+                        if (line.includes("PLAYER_TEAM_CHANGE")) {
+                            // teamChange is an array of two indexes, 0 is player identifier, 1 is the team it has joined
+                            let teamChange = line.replace("PLAYER_TEAM_CHANGE player:", "").replace("team:", "").split(" ");
+
+                            // Get the desired player object from players array
+                            let changePlayer = game_info.players.find((p) => {
+                                return parseInt(p.order) == parseInt(teamChange[0])
+                            });
+
+                            // Get player index if player was found, or skip if it wasn't
+                            if (changePlayer) {
+                                changePlayer = game_info.players.indexOf(changePlayer);
+                                // changePlayer is now the array index from current player,
+                                // so we can change it's team as needed
+                                game_info.players[changePlayer].team = parseInt(teamChange[1]);
+                            }
+                        }
+                        // Get game mode
+                        if (line.includes("INFO_SETTINGS")) {
+                            let gmode = line.split(`"`);
+                            game_info.mode = gmode[1];
+                        }
+                        if (line.includes("GAME_END")) {
+                            // game_end is an array with the following indexes:
+                            // 0 => GAME_END string
+                            // 1 => time:current game time
+                            // 2 => winner:"identifier of winning team"
+                            let game_end = line.split(" ");
+
+                            // Store time spent in game to game_info.tine
+                            game_info.time = game_end[1].replace("time:", "");
+                            game_info.readable_time = new Date(parseInt(game_info.time)).toISOString().slice(11, 19);
+
+                            // Store game winning team identifier to game_info.winner
+                            game_info.winner = parseInt(game_end[2].replace(`winner:`, "").replace(`\r`, "").replace(`"`, ""));
+                        }
+                    })
+
+                    // If file is older than 6 hours and has no winner, remove it
+                    if (game_info.start <= (Date.now() - (1000 * 60 * 60 * 3)) && !game_info.winner) {
+                        fs.unlinkSync(path.join(logs_folder, file))
+                    }
+
+                    // If game has winner, submit to server
+                    if (game_info.winner) {
+                        let form_data = new FormData();
+                        form_data.append("game", JSON.stringify(game_info));
+                        form_data.append("f", "game_logs");
+                        axios.post(`http://192.168.100.6:8080/client_requester.php`, form_data).then(response => {
+                            if (parseInt(response.data) === 200) {
+                                fs.unlinkSync(path.join(logs_folder, file))
+                            }
+                        });
+                    }
+                }
+            }
+        });
+    });
 });
 
 ipcMain.handle("openHonClient", (e, params) => {
