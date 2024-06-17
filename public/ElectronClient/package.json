@@ -28,6 +28,7 @@
     "electron": "^31.0.0"
   },
   "dependencies": {
+    "@electron/remote": "^2.1.2",
     "axios": "^1.7.2",
     "command-exists": "^1.2.9",
     "electron-squirrel-startup": "^1.0.1"

@@ -1,10 +1,11 @@
-const { app, BrowserWindow, ipcMain, shell, dialog } = require('electron')
+const { app, BrowserWindow, ipcMain, shell, dialog, webContents } = require('electron')
 const path = require("node:path");
 const fs = require('node:fs');
 const os = require('node:os');
 const { default: axios } = require('axios');
 const exec = require('child_process').exec;
 const commandExistsSync = require('command-exists').sync;
+require('@electron/remote/main').initialize()
 
 const createWindow = () => {
     const win = new BrowserWindow({
@@ -21,7 +22,7 @@ const createWindow = () => {
         }
     })
     win.setMenu(null);
-    // win.openDevTools();
+    win.openDevTools();
     win.loadFile('index.html');
     win.setIcon(path.join(__dirname, '/icons/icon.png'));
 }
@@ -38,8 +39,15 @@ app.whenReady().then(() => {
     })
 });
 
+let bwindow = false;
+
+app.on('browser-window-created', (_, window) => {
+    bwindow = window;
+    require("@electron/remote/main").enable(window.webContents)
+})
+
 ipcMain.handle("openHoNRegister", () => {
-    shell.openExternal("http://192.168.100.6:8080");
+    shell.openExternal(`http://${bwindow.masterserver}`);
 });
 
 ipcMain.handle("submitGameLogs", () => {
@@ -162,7 +170,7 @@ ipcMain.handle("submitGameLogs", () => {
                         let form_data = new FormData();
                         form_data.append("game", JSON.stringify(game_info));
                         form_data.append("f", "game_logs");
-                        axios.post(`http://192.168.100.6:8080/client_requester.php`, form_data).then(response => {
+                        axios.post(`http://${bwindow.masterserver}/client_requester.php`, form_data).then(response => {
                             if (parseInt(response.data) === 200) {
                                 fs.unlinkSync(path.join(logs_folder, file))
                             }
@@ -197,7 +205,7 @@ ipcMain.handle("openHonClient", (e, params) => {
             WINE_PATH: os.platform() !== "win32" && commandExistsSync('wine') ? "wine" : false,
             WINEPREFIX: false,
             HON_EXE: false,
-            MASTERSERVER: "192.168.100.6:8080"
+            MASTERSERVER: `${bwindow.masterserver}`
         }
     }
 
