@@ -37,6 +37,17 @@ body * {
     cursor: none;
 }
 
+.background {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
 #background {
     position: absolute;
     width: 100vw;
@@ -45,6 +56,7 @@ body * {
     z-index: 1;
     left: 0;
     top: 0;
+    transition: .3s;
 }
 
 .form {

@@ -13,9 +13,11 @@
         <div class="drag">
             <button class="close_button" onclick="window.close()">x</button>
         </div>
-        <video autoplay muted loop id="background">
-            <source src="./public_docs/profile.webm" type="video/webm">
-        </video>
+        <div class="background" style="background-image: url('./public_docs/qi.webp')">
+            <video autoplay muted loop id="background">
+                <source src="./public_docs/profile.webm" type="video/webm">
+            </video>
+        </div>
         <div class="internal">
             <div class="content">
                 <div id="welcome"></div>
@@ -43,6 +45,13 @@
     loadData();
 
     function loadGame(btn) {
+        let video = document.querySelector("#background");
+        if (video) {
+            video.style.opacity = 0;
+            setTimeout(() => {
+                document.querySelector("#background").remove();
+            }, 2000);
+        }
         btn.style.display = "none";
         const userData = JSON.parse(sessionStorage.getItem("user"));
         window.indexBridge.openHonClient(userData);
@@ -54,7 +63,7 @@
         setInterval(() => {
             console.log("Chamada - Interval")
             window.indexBridge.submitGameLogs();
-        }, 10000)
+        }, 15000)
     }
 
     submitLocalGames();
