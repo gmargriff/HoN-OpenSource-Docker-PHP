@@ -32,3 +32,7 @@ composer.lock
 /public/hon_client.rar
 /public/public_docs/*request.json
 /public/c.zip
+
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store

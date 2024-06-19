@@ -9,29 +9,12 @@ module.exports = {
   rebuildConfig: {},
   makers: [
     {
-      name: '@electron-forge/maker-squirrel',
-      config: {},
-    },
-    {
-      name: '@electron-forge/maker-zip',
-      platforms: ['darwin'],
-    },
-    {
-      name: '@electron-forge/maker-deb',
+      name: "@electron-forge/maker-zip",
+      platforms: ["darwin", "linux", "win32"], // optional
       config: {
-        options: {
-          icon: 'icons/icon.png'
-        }
+        // Config here
       }
-    }/* ,
-    {
-      name: '@electron-forge/maker-rpm',
-      config: {
-        options: {
-          icon: 'icons/icon.png'
-        }
-      }
-    }, */
+    }
   ],
   plugins: [
     {

@@ -1,7 +1,8 @@
-version: "3.5"
+name: "honserver"
 
 services:
   web:
+    container_name: hon-web
     image: nginx:1.15.2
     ports:
       - $WEB_PORTS
@@ -17,6 +18,7 @@ services:
       - "php"
     restart: $RESTART
   php:
+    container_name: hon-php
     build: "./.docker/php-fpm"
     expose:
       - "9000"
@@ -39,6 +41,7 @@ services:
       - "db"
     restart: $RESTART
   db:
+    container_name: hon-database
     image: mariadb:10.1
     ports:
       - $DB_PORT:$DB_PORT
@@ -56,12 +59,13 @@ services:
       - ".env"
     restart: $RESTART
   phpmyadmin:
+    container_name: hon-phpmyadmin
     image: phpmyadmin/phpmyadmin
     ports:
       - $PHPMYADMIN_PORTS
     environment:
       - PMA_ARBITRARY=0
-      - PMA_HOST=db
+      - PMA_HOST=hon-database
       - UPLOAD_LIMIT=300M
     volumes:
       - ".phpmyadmin:/sessions"
@@ -69,5 +73,11 @@ services:
     links:
       - db
     restart: $RESTART
+  build_client:
+    container_name: hon-node
+    build: "./.docker/node"
+    volumes:
+      - "./public/ElectronClient:/app"
+    restart: "no"
 volumes:
   data: {}
