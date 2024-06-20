@@ -79,5 +79,6 @@ services:
     volumes:
       - "./public/ElectronClient:/app"
     restart: "no"
+    profiles: ["build"]
 volumes:
   data: {}
