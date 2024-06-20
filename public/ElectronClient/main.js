@@ -22,7 +22,7 @@ const createWindow = () => {
         }
     })
     win.setMenu(null);
-    win.openDevTools();
+    // win.openDevTools();
     win.loadFile('index.html');
     win.setIcon(path.join(__dirname, '/icons/icon.png'));
 }
@@ -77,7 +77,12 @@ ipcMain.handle("submitGameLogs", () => {
 
     if (parameters.WINEPREFIX) {
         // If user not on windows, change logs_folder to inside wineprefix
-        logs_folder = path.join(parameters.WINEPREFIX, "drive_c", "users", "steamuser", "Documents", "Heroes of Newerth x64", "game", "logs");
+        
+        // Get user username
+        const username = os.userInfo().username;
+
+        // Get user logs folder
+        logs_folder = path.join(parameters.WINEPREFIX, "drive_c", "users", username, "Documents", "Heroes of Newerth x64", "game", "logs");
     }
 
     // If folder does not exist, create it
@@ -286,7 +291,9 @@ ipcMain.handle("openHonClient", (e, params) => {
     let loadClient = "";
     if (parameters.WINEPREFIX) {
         // If user not on windows, creates login.cfg inside WINEPREFIX
-        let prefixlogin_file = path.join(parameters.WINEPREFIX, "drive_c", "users", "steamuser", "Documents", "Heroes of Newerth x64", "game", "login.cfg");
+        // Get user username
+        const username = os.userInfo().username;
+        let prefixlogin_file = path.join(parameters.WINEPREFIX, "drive_c", "users", username, "Documents", "Heroes of Newerth x64", "game", "login.cfg");
         if (!fs.existsSync(prefixlogin_file)) {
             fs.mkdirSync(path.dirname(prefixlogin_file), { recursive: true });
         }
