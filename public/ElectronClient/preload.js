@@ -26,7 +26,7 @@ const loadClientConfigs = async () => {
     let userlogin_folder = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game");
 
     if (!fs.existsSync(userlogin_folder)) {
-        fs.mkdirSync(path.dirname(userlogin_folder), { recursive: true });
+        fs.mkdirSync(userlogin_folder, { recursive: true });
     }
 
     // Check if a user.cfg file exists in HoN folder and load it's parameters it it does

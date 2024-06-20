@@ -22,7 +22,7 @@ const createWindow = () => {
         }
     })
     win.setMenu(null);
-    // win.openDevTools();
+    win.openDevTools();
     win.loadFile('index.html');
     win.setIcon(path.join(__dirname, '/icons/icon.png'));
 }
@@ -58,7 +58,7 @@ ipcMain.handle("submitGameLogs", () => {
     let userlogin_folder = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game");
 
     if (!fs.existsSync(userlogin_folder)) {
-        fs.mkdirSync(path.dirname(userlogin_folder), { recursive: true });
+        fs.mkdirSync(userlogin_folder, { recursive: true });
     }
 
     // Check if a user.cfg file exists in HoN folder and load it's parameters it it does
@@ -87,7 +87,7 @@ ipcMain.handle("submitGameLogs", () => {
 
     // If folder does not exist, create it
     if (!fs.existsSync(logs_folder)) {
-        fs.mkdirSync(path.dirname(logs_folder), { recursive: true });
+        fs.mkdirSync(logs_folder, { recursive: true });
     }
 
     // Read directory to check if there are game logs
@@ -199,7 +199,7 @@ ipcMain.handle("openHonClient", (e, params) => {
     let userlogin_folder = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game");
 
     if (!fs.existsSync(userlogin_folder)) {
-        fs.mkdirSync(path.dirname(userlogin_folder), { recursive: true });
+        fs.mkdirSync(userlogin_folder, { recursive: true });
     }
 
     // Check if a user.cfg file exists in HoN folder and load it's parameters it it does
