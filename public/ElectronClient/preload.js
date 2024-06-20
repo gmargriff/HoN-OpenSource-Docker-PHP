@@ -1,7 +1,9 @@
 const { contextBridge, ipcRenderer } = require("electron");
 const { app } = require('@electron/remote');
 const fs = require("node:fs");
+const os = require('node:os');
 const path = require("node:path");
+const commandExistsSync = require('command-exists').sync;
 
 let masterserver_url = "";
 
@@ -18,6 +20,7 @@ let indexBridge = {
 }
 
 const loadClientConfigs = async () => {
+    let parameters = false;
     // Get the current environment documents folder and check if HoN folder exists.
     // Creates if it doesn't
     let userlogin_folder = path.join(app.getPath("documents"), "Heroes of Newerth x64", "game");

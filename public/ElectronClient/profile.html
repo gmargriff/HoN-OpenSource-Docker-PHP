@@ -59,9 +59,7 @@
 
     function submitLocalGames() {
         window.indexBridge.submitGameLogs();
-        console.log("Chamada - Start")
         setInterval(() => {
-            console.log("Chamada - Interval")
             window.indexBridge.submitGameLogs();
         }, 15000)
     }

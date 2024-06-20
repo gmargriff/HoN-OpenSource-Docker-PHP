@@ -22,7 +22,7 @@ const createWindow = () => {
         }
     })
     win.setMenu(null);
-    // win.openDevTools();
+    win.openDevTools();
     win.loadFile('index.html');
     win.setIcon(path.join(__dirname, '/icons/icon.png'));
 }
@@ -87,6 +87,9 @@ ipcMain.handle("submitGameLogs", () => {
 
     // Read directory to check if there are game logs
     fs.readdir(logs_folder, (err, files) => {
+        if(!files) {
+            return;
+        }
         // Run through each file in folder
         files.forEach(file => {
             // If it starts with "game_", try to read it
