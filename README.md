@@ -25,9 +25,13 @@ As the title says, this is a Heroes of Newerth **minimal** server, which means t
 **Unnintended (not working, can work, but I won't make it work)**
 
 ❌ Can't play online / ranked matches
+
 ❌ Can't buy other item types from shop (we have a list from every item in one of the folders, you can work it out if you want)
+
 ❌ Can't create / join clans
+
 ❌ [Insert here anything else that was not listed on the other two categories]
+
 
 ---
 As you can see, I do not intend to write a whole server with functional chatserver and full store. I only want to play this game mostly singleplayer or with close friends with a minimal amount of work while still keeping some sort of progression system. This means I'm going to make an effort to write a new client where I can implement new stuff that will work as long as it's running as the game goes.
@@ -105,6 +109,7 @@ docker compose up build_client
 You'll find your new binaries for Windows, Mac and Linux inside the `public/ElectronClient/out`folder.
 
 ## Register, connect and play
+
 Okay, now that you're done building stuff, it's time to play.
 First, open your browser and connect to `http://127.0.0.1:8080`.
 You'll find the registration page, create your new account and, if you want, put a .zip file named `hon_client.zip` containing the game installation so others can download from this page.
@@ -112,6 +117,7 @@ You'll find the registration page, create your new account and, if you want, put
 Now, you can open your game and login with your account.
 
 **If you're playing with the new client:**
+
 You'll be able to login with the new client and play straight. It may ask you to point where to put the WINEPREFIX (if you're on linux or mac) and where to find the `hon_x64.exe`  (from your installation). If you ever want to change the IP address you're connecting with the new client, go to your Documents folder, `Documents > Heroes of Newerth x64 > game > user.cfg` and change the MasterServer IP address.
 
 Keep it open while you play and it'll automatically submit your bot matches to the server to get you some silver everytime you play, which you can use to buy alt avatars in shop.
@@ -151,5 +157,7 @@ This project would never exist if it were not for them.
 
 Thanks to Anton Romanov aka Theli, Denis Koroskin aka korDen, Shawn Presser, Xen0byte, mrhappyasthma and any other Project Kongor contributor.
 
+
 https://kongor.online/
+
 https://github.com/Project-KONGOR-Open-Source/NEXUS
