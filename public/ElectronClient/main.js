@@ -151,9 +151,9 @@ ipcMain.handle("submitGameLogs", () => {
                             let gmode = line.split(`"`);
                             game_info.mode = gmode[1];
                         }
-                        if (line.includes("GAME_END")) {
+                        if (line.includes("GAME_END") || line.includes("GAME_CONCEDE")) {
                             // game_end is an array with the following indexes:
-                            // 0 => GAME_END string
+                            // 0 => GAME_END string || GAME_CONCEDE string
                             // 1 => time:current game time
                             // 2 => winner:"identifier of winning team"
                             let game_end = line.split(" ");
