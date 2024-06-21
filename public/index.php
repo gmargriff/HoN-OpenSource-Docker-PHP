@@ -291,7 +291,7 @@ if (@$_POST["username"] && @$_POST["password"] && @$_POST["password_confirmation
                         </div>
                     <?php } ?>
                     <div class="buttons">
-                        <a href="/hon_client.rar" title="Download"><button type="button">Download game</button></a>
+                        <a href="/hon_client.zip" title="Download"><button type="button">Download game</button></a>
                         <button type="submit">Register account</button>
                     </div>
                 <?php } else { ?>
@@ -301,7 +301,7 @@ if (@$_POST["username"] && @$_POST["password"] && @$_POST["password_confirmation
                         </ul>
                     </div>
                     <div class="buttons">
-                        <a href="/hon_4101.rar" title="Download"><button type="button">Download game</button></a>
+                        <a href="/hon_client.zip" title="Download"><button type="button">Download game</button></a>
                     </div>
                 <?php } ?>
             </form>

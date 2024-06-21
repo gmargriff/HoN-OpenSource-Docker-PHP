@@ -40,7 +40,7 @@ const loadClientConfigs = async () => {
             WINE_PATH: os.platform() !== "win32" && commandExistsSync('wine') ? "wine" : false,
             WINEPREFIX: false,
             HON_EXE: false,
-            MASTERSERVER: "192.168.100.6:8080"
+            MASTERSERVER: "127.0.0.1:8080"
         }
     }
 

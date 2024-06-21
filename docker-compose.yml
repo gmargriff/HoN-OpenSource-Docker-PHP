@@ -48,7 +48,7 @@ services:
     expose:
       - $DB_PORT
     volumes:
-      - ".database:/.database"
+      - ./.database:/docker-entrypoint-initdb.d
       - ".data:/var/lib/mysql"
     environment:
       MYSQL_DATABASE: ${DB_DATABASE}
