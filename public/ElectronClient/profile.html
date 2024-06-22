@@ -35,25 +35,35 @@
 <script src="./scripts/axios.min.js"></script>
 <script src="./scripts/cursor.js"></script>
 <script>
-    function loadData() {
-        let user = sessionStorage.getItem("user");
-        user = JSON.parse(user);
-        const username = user.username[0].toUpperCase() + user.username.slice(1);
-        document.getElementById("welcome").innerHTML = `Logged in as <b>${username}</b>`;
-    }
-
-    loadData();
-
-    function loadGame(btn) {
+    function stopVideo() {
         let video = document.querySelector("#background");
         if (video) {
             video.style.opacity = 0;
             setTimeout(() => {
                 document.querySelector("#background").remove();
-            }, 2000);
+            }, 3000);
         }
+    }
+    function loadData() {
+        let user = sessionStorage.getItem("user");
+        user = JSON.parse(user);
+        const username = user.username[0].toUpperCase() + user.username.slice(1);
+        document.getElementById("welcome").innerHTML = `Logged in as <b>${username}</b>`;
+        if(window.user_OS === "darwin") {
+            let btn = document.querySelector(".play_button");
+            btn.style.display = "none";
+            stopVideo();
+            document.getElementById("welcome").innerHTML = document.getElementById("welcome").innerHTML + `<br />Monitoring game logs...`;
+        }
+    }
+
+    loadData();
+
+    function loadGame(btn) {
+        stopVideo();
         btn.style.display = "none";
         const userData = JSON.parse(sessionStorage.getItem("user"));
+        document.getElementById("welcome").innerHTML = document.getElementById("welcome").innerHTML + `<br />Monitoring game logs...`;
         window.indexBridge.openHonClient(userData);
     }
 

@@ -6,6 +6,7 @@ const path = require("node:path");
 const commandExistsSync = require('command-exists').sync;
 
 let masterserver_url = "";
+let user_OS = "";
 
 let indexBridge = {
     openHoNRegister: async () => {
@@ -47,9 +48,11 @@ const loadClientConfigs = async () => {
     // Writes the current configs to user.cfg
     fs.writeFileSync(path.join(userlogin_folder, "user.cfg"), JSON.stringify(parameters));
     masterserver_url = parameters.MASTERSERVER;
+    user_OS = os.platform();
 }
 
 window.addEventListener('DOMContentLoaded', loadClientConfigs());
 
 contextBridge.exposeInMainWorld("masterserver", masterserver_url);
+contextBridge.exposeInMainWorld("user_OS", user_OS);
 contextBridge.exposeInMainWorld("indexBridge", indexBridge);
