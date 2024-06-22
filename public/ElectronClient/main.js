@@ -24,7 +24,9 @@ const createWindow = () => {
     win.setMenu(null);
     // win.openDevTools();
     win.loadFile('index.html');
-    win.setIcon(path.join(__dirname, '/icons/icon.png'));
+    if(os.platform !== "darwin") {
+        win.setIcon(path.join(__dirname, '/icons/icon.png'));
+    }
 }
 
 app.whenReady().then(() => {
