@@ -14,9 +14,7 @@
             <button class="close_button" onclick="window.close()">x</button>
         </div>
         <div class="background" style="background-image: url('./public_docs/qi.webp')">
-            <video autoplay muted loop id="background">
-                <source src="./public_docs/profile.webm" type="video/webm">
-            </video>
+            <video autoplay muted loop id="background"><source src="./public_docs/profile.webm" type="video/webm"></video>
         </div>
         <div class="internal">
             <div class="content">
@@ -24,6 +22,10 @@
                 <button class="play_button" type="button" onclick="loadGame(this)">
                     <img src="./public_docs/play_button.png" alt="Play" />
                 </button>
+                <div class="toggle_video">
+                    <input type="checkbox" id="performance_mode" onchange="togglePerformance(this)"/>
+                    <label for="performance_mode">Disable background video</label> 
+                </div>
             </div>
         </div>
     </div>
@@ -36,20 +38,16 @@
 <script src="./scripts/cursor.js"></script>
 <script>
     function stopVideo() {
-        let video = document.querySelector("#background");
-        if (video) {
-            video.style.opacity = 0;
-            setTimeout(() => {
-                document.querySelector("#background").remove();
-            }, 3000);
-        }
+        document.querySelector("#performance_mode").checked = true;
+        document.querySelector(".background").innerHTML = "";
     }
+
     function loadData() {
         let user = sessionStorage.getItem("user");
         user = JSON.parse(user);
         const username = user.username[0].toUpperCase() + user.username.slice(1);
         document.getElementById("welcome").innerHTML = `Logged in as <b>${username}</b>`;
-        if(window.user_OS === "darwin") {
+        if (window.user_OS === "darwin") {
             let btn = document.querySelector(".play_button");
             btn.style.display = "none";
             stopVideo();
@@ -75,6 +73,15 @@
     }
 
     submitLocalGames();
+
+    function togglePerformance(e) {
+        let video = `<video autoplay muted loop id="background"><source src="./public_docs/profile.webm" type="video/webm"></video>`;
+        if(e.checked) {
+            document.querySelector(".background").innerHTML = "";
+        } else {
+            document.querySelector(".background").innerHTML = video;
+        }
+    }
 
 </script>
 
