@@ -105,7 +105,7 @@ class Store
      * 
      * Return: int 0 || 1
      *  */
-    public function add_product_to_account(int $product_id, int $currency, string $cookie, string $hosttime): bool
+    public function add_product_to_account(int $product_id, int $currency, string $cookie, string $hosttime)
     {
         try {
             // Check player session  
@@ -123,6 +123,7 @@ class Store
             // then get only the key_value from selected id
             $product_ids = explode("|", $list["productIDs"]);
             $filtered_id = array_search($product_id, $product_ids);
+
 
             // Split product prices into iterable array
             // based on currency to be used
@@ -159,11 +160,26 @@ class Store
             $add_product->player = $player->username;
             $add_product->code = $product_code;
             R::store($add_product);
-
-            return true;
+            return $player;
         } catch (Exception $e) {
+            file_put_contents("public_docs/"  . date("YmdHis") . "store" . "-add_error_request" . ".json", json_encode([$e->getMessage()]));
             echo serialize([$e->getMessage()]);
             die();
+        }
+    }
+
+    public function get_aa_id_by_code($hero_name, $code) {
+        $identifier = "aa.$hero_name.$code";
+        $aas = R::findOne("skins", " code = ?", [$identifier]);
+        $log = [
+            "id" => $identifier,
+            "aas" => $aas
+        ];
+
+        if(!$aas) {
+            return false;
+        } else {
+            return $aas->identifier;
         }
     }
 

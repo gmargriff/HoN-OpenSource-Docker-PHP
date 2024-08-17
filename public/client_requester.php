@@ -40,7 +40,38 @@ if (!function_exists('getallheaders')) {
 
 if (isset($_REQUEST['f'])) {
     $response = "";
-    if ($_REQUEST['f'] == "get_account_all_hero_stats") {
+    if ($_REQUEST['f'] == "get_upgrades") {
+        $player = R::findOne("players", " cookie = ?", [$_REQUEST["cookie"]]);
+        if (!$player) {
+            echo "Player not found";
+            die();
+        }
+
+        $user_stats = new SimpleStats();
+
+        $field_stats['account_id'] = $player->id;
+	    $res['field_stats'][0] = $field_stats;
+        $res['my_upgrades_info'] = array();
+        $res['points'] = $player->points;
+	    $res['mmpoints'] = $player->mmpoints;
+        $res['game_tokens'] = 0;
+    	$res['standing'] = 3;
+    	$res['level'] = 1;
+	    $res['level_exp'] = 1;
+        $res['my_upgrades'] = $user_stats->my_upgrades;
+	    $res['selected_upgrades'] = $user_stats->selected_upgrades;
+
+        // Enable alt avatars
+        $alt_avatars = R::find("playerskins", " player = ?", [$player->username]);
+        $skin_count = 0;
+        foreach ($alt_avatars as $skin) {
+            $skin_count++;
+            array_push($res['my_upgrades'], $skin->code);
+        }
+        
+        $response = serialize($res);
+        echo $response;
+    } else if ($_REQUEST['f'] == "get_account_all_hero_stats") {
         $response = file_get_contents("./public_docs/user_all_hero_stats.json");
         $response = json_decode($response, true);
         $response = serialize($response);

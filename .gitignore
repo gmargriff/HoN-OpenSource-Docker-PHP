@@ -31,6 +31,7 @@ yarn-error.log
 composer.lock
 /public/hon_client.rar
 /public/public_docs/*request.json
+/public/public_docs/20*.json
 /public/c.zip
 
 .DS_Store
