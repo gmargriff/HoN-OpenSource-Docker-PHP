@@ -13,13 +13,13 @@ As the title says, this is a Heroes of Newerth **minimal** server, which means t
  - [x] Getting a few silver coins for every match played
  - [x] New client which allow easily logging in and playing on local and private servers
  - [x] Hero Guides
+ - [x] Shopping alt avatars immediate effect
+ - [x] Allow buying alt avatars on char select
 
 **Intended, but not working:**
 
  - [ ] New client should track when game is open and hide / show play button as needed
  - [ ] New client should detect and a match is currently ongoing
- - [ ] Shopping alt avatars immediate effect
- - [ ] Allow buying alt avatars on char select
  - [ ] Keep track of player progress (achievements, seasons, rank...)
 
 **Unnintended (not working, can work, but I won't make it work)**
